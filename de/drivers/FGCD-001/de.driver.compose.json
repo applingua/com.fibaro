@@ -2,7 +2,8 @@
   "id": "FGCD-001",
   "name": {
     "en": "CO Sensor",
-    "nl": "CO Sensor"
+    "nl": "CO Sensor",
+    "de": "CO-Sensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -50,7 +51,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on your Fibaro CO Sensor three times",
-        "nl": "Druk driemaal op de knop bovenop de Fibaro CO Sensor"
+        "nl": "Druk driemaal op de knop bovenop de Fibaro CO Sensor",
+        "de": "Drücke die Taste auf deinem Fibaro-CO-Sensor drei Mal"
       }
     },
     "associationGroups": [
@@ -59,7 +61,8 @@
     "associationGroupsOptions": {
       "1": {
         "hint": {
-          "en": "“Lifeline” reports the device status and allows for assigning single device only (main controller by default)."
+          "en": "“Lifeline” reports the device status and allows for assigning single device only (main controller by default).",
+          "de": "“Lifeline” berichtet den Gerätestatus und erlaubt das Zuweisen einzelner Geräte (Standardmäßig Main-Controller)."
         }
       }
     }
