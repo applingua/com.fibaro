@@ -1,7 +1,8 @@
 {
   "id": "FGRGBWM-441",
   "name": {
-    "en": "RGBW Controller"
+    "en": "RGBW Controller",
+    "de": "RGBW-Controller"
   },
   "class": "light",
   "capabilities": [
@@ -25,25 +26,29 @@
     "measure_voltage.input1": {
       "title": {
         "en": "Input 1",
-        "nl": "Ingang 1"
+        "nl": "Ingang 1",
+        "de": "Eingang 1"
       }
     },
     "measure_voltage.input2": {
       "title": {
         "en": "Input 2",
-        "nl": "Ingang 2"
+        "nl": "Ingang 2",
+        "de": "Eingang 2"
       }
     },
     "measure_voltage.input3": {
       "title": {
         "en": "Input 3",
-        "nl": "Ingang 3"
+        "nl": "Ingang 3",
+        "de": "Eingang 3"
       }
     },
     "measure_voltage.input4": {
       "title": {
         "en": "Input 4",
-        "nl": "Ingang 4"
+        "nl": "Ingang 4",
+        "de": "Eingang 4"
       }
     }
   },
@@ -92,7 +97,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on the {{driverNameEn}} three times.",
-        "nl": "Druk driemaal op de knop op de {{driverNameNl}}."
+        "nl": "Druk driemaal op de knop op de {{driverNameNl}}.",
+        "de": "Drücke die Taste auf {{driverNameDe}} drei Mal"
       }
     },
     "associationGroups": [
@@ -102,31 +108,36 @@
       "1": {
         "hint": {
           "en": "On/off signals from input 1",
-          "nl": "Aan/uit signalen van ingang 1"
+          "nl": "Aan/uit signalen van ingang 1",
+          "de": "An/Aus-Signal von Eingang 1"
         }
       },
       "2": {
         "hint": {
           "en": "On/off signals from input 2",
-          "nl": "Aan/uit signalen van ingang 2"
+          "nl": "Aan/uit signalen van ingang 2",
+          "de": "An/Aus-Signal von Eingang 2"
         }
       },
       "3": {
         "hint": {
           "en": "On/off signals from input 3",
-          "nl": "Aan/uit signalen van ingang 3"
+          "nl": "Aan/uit signalen van ingang 3",
+          "de": "An/Aus-Signal von Eingang 3"
         }
       },
       "4": {
         "hint": {
           "en": "On/off signals from input 4",
-          "nl": "Aan/uit signalen van ingang 4"
+          "nl": "Aan/uit signalen van ingang 4",
+          "de": "An/Aus-Signal von Eingang 4"
         }
       },
       "5": {
         "hint": {
           "en": "This is the controller group, it is not recommended to change this.",
-          "nl": "Dit is de controller groep, het is niet aangeraden deze te wijzigen."
+          "nl": "Dit is de controller groep, het is niet aangeraden deze te wijzigen.",
+          "de": "Das ist die Steuerungsgruppe, es wird nicht empfohlen, Änderungen vorzunehmen."
         }
       }
     }
