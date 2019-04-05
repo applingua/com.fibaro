@@ -4,12 +4,14 @@
         "type": "dropdown",
         "label": {
             "en": "Blind position reports type",
-            "nl": "Rolluik positie rapportage type"
+            "nl": "Rolluik positie rapportage type",
+            "de": "Rolladen-Positionsbericht-Typ"
         },
         "value": "0",
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) determines whether the values are sent in Fibar Command Class or Z-Wave Command Class mode.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat waardes verzend in Fibar Command Class of Z-Wave Command Class modus."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat waardes verzend in Fibar Command Class of Z-Wave Command Class modus.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob die Werte im Modus Fibar Command Class oder Z-Wave Comman Class gesendet werden."
         },
         "zwave": {
             "index": 3,
@@ -40,7 +42,8 @@
         "value": "0",
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) determines what switch is connected to this device.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor een schakelaar het apparaat activeert."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor een schakelaar het apparaat activeert.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, welcher Schalter mit diesem Gerät verbunden ist."
         },
         "zwave": {
             "index": 14,
@@ -51,21 +54,24 @@
                 "id": "0",
                 "label": {
                     "en": "Double, Momentary switch",
-                    "nl": "Dubbele pulsdrukschakelaar "
+                    "nl": "Dubbele pulsdrukschakelaar ",
+                    "de": "Doppelter Taster"
                 }
             },
             {
                 "id": "1",
                 "label": {
                     "en": "Toggle switches",
-                    "nl": "Tuimelschakelaars"
+                    "nl": "Tuimelschakelaars",
+                    "de": "Kippschalter"
                 }
             },
             {
                 "id": "2",
                 "label": {
                     "en": "Single, momentary switch",
-                    "nl": "Enkele pulsdrukschakelaar"
+                    "nl": "Enkele pulsdrukschakelaar",
+                    "de": "Einzelner Taster"
                 }
             }
         ]
@@ -101,11 +107,13 @@
         "type": "checkbox",
         "label": {
             "en": "Start calibration",
-            "nl": "Start kalibratie"
+            "nl": "Start kalibratie",
+            "de": "Kalibrierung starten"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) starts the calibration procedure on save.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) start de kalibratieprocedure na het opslaan."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) start de kalibratieprocedure na het opslaan.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) startet die Kalibrierungsprozess beim Speichern."
         },
         "zwave": {
             "index": 29,
@@ -118,11 +126,13 @@
         "type": "checkbox",
         "label": {
             "en": "Invert movement",
-            "nl": "Keer de beweging om"
+            "nl": "Keer de beweging om",
+            "de": "Bewegung umkehren"
         },
         "hint": {
             "en": "This parameter inverts the shutter movement direction.",
-            "nl": "Deze parameter keert de rolluik bewegingsdirectie om."
+            "nl": "Deze parameter keert de rolluik bewegingsdirectie om.",
+            "de": "Dieser Parameter kehrt die Jalousien-Bewegungsrichtung um."
         },
         "value": false
     },
@@ -131,11 +141,13 @@
         "type": "dropdown",
         "label": {
             "en": "Scene or association mode",
-            "nl": "Scene of associatie modus."
+            "nl": "Scene of associatie modus.",
+            "de": "Szenen- oder Verbindungsmodus"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) determines whether this device is in scene or association mode.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat in scene of associatie modus staat."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat in scene of associatie modus staat.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob dieses Gerät um Szenen- oder Bewegungsmodus ist."
         },
         "zwave": {
             "index": 50,
@@ -147,14 +159,16 @@
                 "id": "0",
                 "label": {
                     "en": "Association activated",
-                    "nl": "Associatie geactiveerd"
+                    "nl": "Associatie geactiveerd",
+                    "de": "Verbindung aktiviert"
                 }
             },
             {
                 "id": "1",
                 "label": {
                     "en": "Scenes activated",
-                    "nl": "Scenes geactiveerd"
+                    "nl": "Scenes geactiveerd",
+                    "de": "Szenen aktiviert"
                 }
             }
         ]
