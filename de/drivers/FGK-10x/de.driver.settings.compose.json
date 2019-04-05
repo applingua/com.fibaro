@@ -3,53 +3,18 @@
         "type": "group",
         "label": {
             "en": "Contact sensor",
-            "nl": "Contact sensor"
+            "nl": "Contact sensor",
+            "de": "Kontaktsensor"
         },
         "collapsed": false,
         "children": [
             {
-                "$extends": "operatingDevice",
-                "$id": "operation_mode",
-                "values": [
-                    {
-                        "id": "0",
-                        "label": {
-                            "en": "Door/Window Sensor",
-                            "nl": "Deur/Raam Sensor"
-                        }
-                    },
-                    {
-                        "id": "1",
-                        "label": {
-                            "en": "External Switch",
-                            "nl": "Externe Schakelaar"
-                        }
-                    }
-                ]
+                "$extends": "activateLed",
+                "$id": "led_status"
             },
             {
                 "$extends": "defaultPosition",
-                "$id": "default_alarm_status",
-                "values": [
-                    {
-                        "id": "0",
-                        "label": {
-                            "en": "Door/Window Opened",
-                            "nl": "Deur/Raam Geopend"
-                        }
-                    },
-                    {
-                        "id": "1",
-                        "label": {
-                            "en": "Door/Window Closed",
-                            "nl": "Deur/Raam Gesloten"
-                        }
-                    }
-                ]
-            },
-            {
-                "$extends": "ledStyle",
-                "$id": "led_indication",
+                "$id": "type_input",
                 "zwave": {
                     "index": 3,
                     "size": 1
@@ -58,61 +23,37 @@
                     {
                         "id": "0",
                         "label": {
-                            "en": "No Indication",
-                            "nl": "Geen Indicatie"
+                            "en": "Closed by default",
+                            "nl": "Normaal gesloten",
+                            "de": "Standardmäßig geschlossen"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
-                            "en": "Status Changed",
-                            "nl": "Status Veranderd"
+                            "en": "Opened by default",
+                            "nl": "Normaal Open",
+                            "de": "Standardmäßig geöffnet"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
-                            "en": "On Wakeup",
-                            "nl": "Wakker Worden"
+                            "en": "Monostable Switch",
+                            "nl": "Puls Schakelaar",
+                            "de": "Taster"
                         }
                     },
                     {
                         "id": "3",
                         "label": {
-                            "en": "Status Changed & On Wakeup",
-                            "nl": "Status Veranderd & Wakker Worden"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "label": {
-                            "en": "Tamper",
-                            "nl": "Sabotage"
-                        }
-                    },
-                    {
-                        "id": "5",
-                        "label": {
-                            "en": "Status Changed & Tamper",
-                            "nl": "Status Veranderd & Sabotage"
-                        }
-                    },
-                    {
-                        "id": "6",
-                        "label": {
-                            "en": "On Wakeup & Tamper",
-                            "nl": "Wakker Worden & Sabotage"
-                        }
-                    },
-                    {
-                        "id": "7",
-                        "label": {
-                            "en": "Status Changed & On Wakeup & Tamper",
-                            "nl": "Status Veranderd & Wakker Worden & Sabotage"
+                            "en": "Toggle Switch",
+                            "nl": "Tuimel Schakelaar",
+                            "de": "Kippschalter"
                         }
                     }
                 ],
-                "value": "6"
+                "value": "0"
             }
         ]
     },
@@ -120,56 +61,24 @@
         "type": "group",
         "label": {
             "en": "Temperature sensor",
-            "nl": "Temperatuurssensor"
+            "nl": "Temperatuurssensor",
+            "de": "Temperatursensor"
         },
         "collapsed": true,
         "children": [
             {
-                "$extends": "measuringInterval",
-                "$id": "temperature_measure_interval",
-                "zwave": {
-                    "index": 50,
-                    "size": 2
-                },
-                "attr": {
-                    "min": 0,
-                    "max": 32400
-                },
-                "value": 300
-            },
-            {
                 "$extends": "reportThreshold",
-                "$id": "temperature_report_treshold",
+                "$id": "temperature_measure_hystersis",
                 "zwave": {
-                    "index": 51,
-                    "size": 2
+                    "index": 12,
+                    "size": 1,
+                    "signed": false
                 },
                 "attr": {
                     "min": 0,
-                    "max": 300
+                    "max": 255
                 },
-                "value": 10
-            },
-            {
-                "$extends": "reportInterval",
-                "id": "temperature_report_interval",
-                "zwave": {
-                    "index": 52,
-                    "size": 2
-                },
-                "attr": {
-                    "min": 0,
-                    "max": 32400
-                },
-                "value": 0
-            },
-            {
-                "$extends": "offset",
-                "$id": "temperature_offset",
-                "zwave": {
-                    "index": 66,
-                    "size": 2
-                }
+                "value": 8
             }
         ]
     },
@@ -177,30 +86,24 @@
         "type": "group",
         "label": {
             "en": "Tamper alarm",
-            "nl": "Sabotage alarm"
+            "nl": "Sabotage alarm",
+            "de": "Sabotagealarm"
         },
         "collapsed": true,
         "children": [
             {
-                "$extends": "activateCancellation",
-                "$id": "tamper_cancellation",
-                "zwave": {
-                    "index": 31,
-                    "size": 1
-                }
-            },
-            {
                 "$extends": "cancellationDelay",
-                "$id": "tamper_alarm_cancellation",
+                "$id": "input_alarm_cancellation_delay",
                 "zwave": {
-                    "index": 30,
-                    "size": 2
+                    "index": 1,
+                    "size": 2,
+                    "signed": false
                 },
                 "attr": {
                     "min": 0,
-                    "max": 32400
+                    "max": 65535
                 },
-                "value": 5
+                "value": 0
             }
         ]
     }
