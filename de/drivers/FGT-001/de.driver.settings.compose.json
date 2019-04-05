@@ -9,11 +9,13 @@
         "value": 3600,
         "label": {
             "en": "Battery poll onterval",
-            "nl": "Batterij poll interval"
+            "nl": "Batterij poll interval",
+            "de": "Akku-Anfrage-Intervall"
         },
         "hint": {
             "en": "The amount of seconds between asking the device for a status update.",
-            "nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat."
+            "nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat.",
+            "de": "Die Anzahl an Sekunden zwischen Geräte-Anfragen für ein Status-Update"
         }
     },
     {
@@ -26,11 +28,13 @@
         "value": 300,
         "label": {
             "en": "Measured temperature poll interval",
-            "nl": "Gemeten temperatuur poll interval"
+            "nl": "Gemeten temperatuur poll interval",
+            "de": "Gemessene-Temperatur-Anfrage-Intervall"
         },
         "hint": {
             "en": "The amount of seconds between asking the device for its latest measured temperature.",
-            "nl": "Aantal seconden tussen het opvragen van de laatst gemeten temperatuur aan het apparaat."
+            "nl": "Aantal seconden tussen het opvragen van de laatst gemeten temperatuur aan het apparaat.",
+            "de": "Die Anzahl an Sekunden zwischen Geräte-Anfragen für die zuletzt gemessene Temperatur."
         }
     },
     {
@@ -43,11 +47,13 @@
         "value": 600,
         "label": {
             "en": "Target temperature poll interval",
-            "nl": "Doel temperatuur poll interval"
+            "nl": "Doel temperatuur poll interval",
+            "de": "Zieltemperatur-Anfrage-Intervall"
         },
         "hint": {
             "en": "The amount of seconds between asking the device for its target temperature.",
-            "nl": "Aantal seconden tussen het opvragen van de doel temperatuur aan het apparaat."
+            "nl": "Aantal seconden tussen het opvragen van de doel temperatuur aan het apparaat.",
+            "de": "Die Anzahl an Sekunden zwischen Geräte-Anfragen für die Zieltemperatur."
         }
     }
 ]
