@@ -4,11 +4,13 @@
       "id": "FGKF-601-scene",
       "title": {
         "en": "Keyfob buttons",
-        "nl": "Keyfob knoppen"
+        "nl": "Keyfob knoppen",
+        "de": "Schlüsselanhänger-Tasten"
       },
       "hint": {
         "en": "In order to use \"Pressed 2x/3x\" enable this functionality in the device settings.",
-        "nl": "Om gebruik te maken van \"2x/3x ingedrukt\" schakel deze functionaliteit in via de apparaat instellingen."
+        "nl": "Om gebruik te maken van \"2x/3x ingedrukt\" schakel deze functionaliteit in via de apparaat instellingen.",
+        "de": "Um \"2x/3x gedrückt\" zu verwenden, aktiviere die Funktionalität in den Geräteeinstellungen."
       },
       "args": [
         {
@@ -19,42 +21,48 @@
               "id": "1",
               "label": {
                 "en": "Square (□)",
-                "nl": "Vierkant (□)"
+                "nl": "Vierkant (□)",
+                "de": "Vierkant (□)"
               }
             },
             {
               "id": "2",
               "label": {
                 "en": "Circle (○)",
-                "nl": "Cirkel (○)"
+                "nl": "Cirkel (○)",
+                "de": "Kreis (○)"
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "Cross (x)",
-                "nl": "Kruis (x)"
+                "nl": "Kruis (x)",
+                "de": "Kreuz (x)"
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Triangle (△)",
-                "nl": "Driehoek (△)"
+                "nl": "Driehoek (△)",
+                "de": "Dreieck (△)"
               }
             },
             {
               "id": "5",
               "label": {
                 "en": "Minus (-)",
-                "nl": "Min (-)"
+                "nl": "Min (-)",
+                "de": "Minus (-)"
               }
             },
             {
               "id": "6",
               "label": {
                 "en": "Plus (+)",
-                "nl": "Plus (+)"
+                "nl": "Plus (+)",
+                "de": "Plus (+)"
               }
             }
           ]
@@ -67,35 +75,40 @@
               "id": "Key Pressed 1 time",
               "label": {
                 "en": "Pressed 1x",
-                "nl": "1x ingedrukt"
+                "nl": "1x ingedrukt",
+                "de": "1x gedrückt"
               }
             },
             {
               "id": "Key Pressed 2 times",
               "label": {
                 "en": "Pressed 2x",
-                "nl": "2x ingedrukt"
+                "nl": "2x ingedrukt",
+                "de": "2x gedrückt"
               }
             },
             {
               "id": "Key Pressed 3 times",
               "label": {
                 "en": "Pressed 3x",
-                "nl": "3x ingedrukt"
+                "nl": "3x ingedrukt",
+                "de": "3x gedrückt"
               }
             },
             {
               "id": "Key Held Down",
               "label": {
                 "en": "Long press",
-                "nl": "Lang drukken"
+                "nl": "Lang drukken",
+                "de": "Lange drücken"
               }
             },
             {
               "id": "Key Released",
               "label": {
                 "en": "Long press released",
-                "nl": "Lang drukken gestopt"
+                "nl": "Lang drukken gestopt",
+                "de": "Langes Drücken losgelassen"
               }
             }
           ]
@@ -106,11 +119,13 @@
       "id": "FGKF-601-sequence",
       "title": {
         "en": "Keyfob sequence",
-        "nl": "Keyfob reeks"
+        "nl": "Keyfob reeks",
+        "de": "Schlüsselanhänger-Sequenz"
       },
       "hint": {
         "en": "First configure the sequences in the device settings panel of the Keyfob.",
-        "nl": "Stel eerst reeksen in via de apparaat instellingen van de Keyfob."
+        "nl": "Stel eerst reeksen in via de apparaat instellingen van de Keyfob.",
+        "de": "Konfiguriere zuerst die Sequenzen in den Geräteeinstellungen des Schlüsselanhängers."
       },
       "args": [
         {
@@ -121,42 +136,48 @@
               "id": "7",
               "label": {
                 "en": "Sequence 1",
-                "nl": "Reeks 1"
+                "nl": "Reeks 1",
+                "de": "Sequenz 1"
               }
             },
             {
               "id": "8",
               "label": {
                 "en": "Sequence 2",
-                "nl": "Reeks 2"
+                "nl": "Reeks 2",
+                "de": "Sequenz 2"
               }
             },
             {
               "id": "9",
               "label": {
                 "en": "Sequence 3",
-                "nl": "Reeks 3"
+                "nl": "Reeks 3",
+                "de": "Sequenz"
               }
             },
             {
               "id": "10",
               "label": {
                 "en": "Sequence 4",
-                "nl": "Reeks 4"
+                "nl": "Reeks 4",
+                "de": "Sequenz"
               }
             },
             {
               "id": "11",
               "label": {
                 "en": "Sequence 5",
-                "nl": "Reeks 5"
+                "nl": "Reeks 5",
+                "de": "Sequenz 5"
               }
             },
             {
               "id": "12",
               "label": {
                 "en": "Sequence 6",
-                "nl": "Reeks 6"
+                "nl": "Reeks 6",
+                "de": "Sequenz 6"
               }
             }
           ]
