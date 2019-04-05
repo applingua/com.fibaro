@@ -2,7 +2,8 @@
   "id": "FGR-223",
   "name": {
     "en": "Roller Shutter 3",
-    "nl": "Rolluik schakelaar 3"
+    "nl": "Rolluik schakelaar 3",
+    "de": "Rolladen 3"
   },
   "class": "windowcoverings",
   "capabilities": [
@@ -28,7 +29,8 @@
       "image": "{{driverassetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the B-button on your {{driverNameEn}} three times.",
-        "nl": "Druk driemaal op de B-knop van uw {{driverNameNl}}."
+        "nl": "Druk driemaal op de B-knop van uw {{driverNameNl}}.",
+        "de": "Drücke die B-Taste auf {{driverNameDe}} drei Mal."
       }
     },
     "associationGroups": [
