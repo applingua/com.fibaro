@@ -2,7 +2,8 @@
   "id": "FGS-213",
   "name": {
     "en": "Single Switch 2",
-    "nl": "Enkele Schakelaar 2"
+    "nl": "Enkele Schakelaar 2",
+    "de": "Einzelner Schalter 2"
   },
   "class": "socket",
   "capabilities": [
@@ -38,7 +39,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on, or the left switch of your {{driverNameEn}} three times",
-        "nl": "Druk driemaal op de knop op de linker schakelaar van {{driverNameNl}}"
+        "nl": "Druk driemaal op de knop op de linker schakelaar van {{driverNameNl}}",
+        "de": "Drücke die Taste auf oder den rechten Schalter von {{driverNameDe}} drei Mal"
       }
     },
     "defaultConfiguration": [
@@ -59,7 +61,8 @@
     "associationGroupsOptions": {
       "1": {
         "hint": {
-          "en": " “Lifeline” reports the device status and allows for assigning single device only (main controller by default)."
+          "en": " “Lifeline” reports the device status and allows for assigning single device only (main controller by default).",
+          "de": "Lifeline berichtet den Gerätestatus und erlaubt das Zuweisen einzelner Geräte (Standardmäßig Main-Controller)"
         }
       }
     }
