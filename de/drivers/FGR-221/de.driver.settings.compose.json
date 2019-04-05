@@ -4,11 +4,13 @@
         "type": "dropdown",
         "label": {
             "en": "Switch type input",
-            "nl": "Schakelaar type ingang"
+            "nl": "Schakelaar type ingang",
+            "de": "Schaltertyp-Eingang"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) determines what type of switch is used.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welk type schakelaar er wordt gebruikt."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welk type schakelaar er wordt gebruikt.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, welcher Schaltertyp benutzt wird."
         },
         "zwave": {
             "index": 14,
@@ -20,21 +22,24 @@
                 "id": "0",
                 "label": {
                     "en": "Monostable switch",
-                    "nl": "Puls schakelaar"
+                    "nl": "Puls schakelaar",
+                    "de": "Taster"
                 }
             },
             {
                 "id": "1",
                 "label": {
                     "en": "Toggle switch",
-                    "nl": "Tuimel schakelaar"
+                    "nl": "Tuimel schakelaar",
+                    "de": "Kippschalter"
                 }
             },
             {
                 "id": "2",
                 "label": {
                     "en": "Single monostable switch",
-                    "nl": "Enkele puls schakelaar"
+                    "nl": "Enkele puls schakelaar",
+                    "de": "Einzelner Taster"
                 }
             }
         ]
