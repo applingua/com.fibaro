@@ -1,7 +1,8 @@
 {
   "id": "FGKF-601",
   "name": {
-    "en": "Keyfob"
+    "en": "Keyfob",
+	"de": "Schlüsselanhänger"
   },
   "class": "other",
   "capabilities": [
@@ -34,13 +35,15 @@
     "learnmode": {
       "instruction": {
         "en": "Press any button on the {{driverNameEn}} 3 times.",
-        "nl": "Druk driemaal op een willekeurige knop op de {{driverNameNl}}."
+        "nl": "Druk driemaal op een willekeurige knop op de {{driverNameNl}}.",
+		"de": "Drücke irgendeine Taste auf {{driverNameDe}} 3 Mal."
       }
     },
     "unlearnmode": {
       "instruction": {
         "en": "Press O and – shortly at the same time, then press Δ or X shortly until the LED is green, finally press + to confirm the removal.",
-        "nl": "Druk O en – tegelijkertijd kort in, druk vervolgens kort op Δ of X tot de LED groen is, druk als laatste stap + kort in om het verwijderen te bevestigen."
+        "nl": "Druk O en – tegelijkertijd kort in, druk vervolgens kort op Δ of X tot de LED groen is, druk als laatste stap + kort in om het verwijderen te bevestigen.",
+		"de": "Drücke kurz gleichzeitig 0 und -, dann drücke kurz Δ oder X, bis die LED grün wird und drücke zum Abschluss +, um die Entfernung zu bestätigen."
       }
     },
     "associationGroups": [
@@ -56,79 +59,92 @@
       "1": {
         "hint": {
           "en": "Lifeline reports the device status and allows for assigning a single device only (main controller by default).",
-          "nl": "Lifeline rapporteert de status van het apparaat en staat maar 1 geassocieerd apparaat toe."
+          "nl": "Lifeline rapporteert de status van het apparaat en staat maar 1 geassocieerd apparaat toe.",
+		  "de": "Lifeline berichtet den Gerätestatus und erlaubt das Zuweisen eines einzelnen Gerätes (Standardmäßig Main-Controller)"
         }
       },
       "2": {
         "hint": {
           "en": "Square (□) - on/off is assigned to clicking the □ button and is used to turn on/off associated devices.",
-          "nl": "Vierkant (□) - aan/uit is toegewezen aan het klikken van de □ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Vierkant (□) - aan/uit is toegewezen aan het klikken van de □ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Viereck (□) - an/aus ist dem Drücken der (□)-Taste zugewiesen und wird verwendet, um verbundene Geräte an-/auszuschalten."
         }
       },
       "3": {
         "hint": {
           "en": "Square (□) - multilevel is assigned to clicking and holding the □ button and is used to turn on/off and change level of associated devices.",
-          "nl": "Vierkant (□) - multilevel is toegewezen aan het klikken en vasthouden van de □ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Vierkant (□) - multilevel is toegewezen aan het klikken en vasthouden van de □ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Viereck (□) - mehrstufig ist dem Drücken und Halten der (□)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       },
       "4": {
         "hint": {
           "en": "Circle (○) - on/off is assigned to clicking the ○ button and is used to turn on/off associated devices.",
-          "nl": "Cirkel (○) - aan/uit is toegewezen aan het klikken van de ○ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Cirkel (○) - aan/uit is toegewezen aan het klikken van de ○ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Kreis (○) - an/aus ist dem Drücken der (○)-Taste zugewiesen und wird verwendet, um verbundene Geräte ein-/auszuschalten." 
         }
       },
       "5": {
         "hint": {
           "en": "Circle (○) - multilevel is assigned to clicking and holding the ○ button and is used to turn on/off and change level of associated devices.",
-          "nl": "Cirkel (○) - multilevel is toegewezen aan het klikken en vasthouden van de ○ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Cirkel (○) - multilevel is toegewezen aan het klikken en vasthouden van de ○ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Kreis (○) - mehrstufig ist dem Drücken und Halten der (○)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       },
       "6": {
         "hint": {
           "en": "Cross (x) - on/off is assigned to clicking the ⨉ button and is used to turn on/off associated devices.",
-          "nl": "Kruis (x) - aan/uit is toegewezen aan het klikken van de ⨉ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Kruis (x) - aan/uit is toegewezen aan het klikken van de ⨉ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Kreuz (x) an/aus ist dem Drücken der (x)-Taste zugewiesen und wird verwendet, um verbundene Geräte ein-/auszuschalten."
         }
       },
       "7": {
         "hint": {
           "en": "Cross (x) - multilevel is assigned to clicking and holding the ⨉ button and is used to turn on/off and change level of associated devices.",
-          "nl": "Kruis (x) - multilevel is toegewezen aan het klikken en vasthouden van de ⨉ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Kruis (x) - multilevel is toegewezen aan het klikken en vasthouden van de ⨉ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Kreuz (x) - mehrstufig ist dem Drücken und Halten der (x)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       },
       "8": {
         "hint": {
           "en": "Triangle (△) - on/off is assigned to clicking the △ button and is used to turn on/off associated devices.",
-          "nl": "Driehoek (△) - aan/uit is toegewezen aan het klikken van de △ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Driehoek (△) - aan/uit is toegewezen aan het klikken van de △ en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Dreieck (△) - an/aus ist dem Drücken der (v)-Taste zugewiesen und wird verwendet, um verbundene Geräte ein-/auszuschalten."
         }
       },
       "9": {
         "hint": {
           "en": "Triangle (△) - multilevel is assigned to clicking and holding the △ button and is used to turn on/off and change level of associated devices.",
-          "nl": "Driehoek (△) - multilevel is toegewezen aan het klikken en vasthouden van de △ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Driehoek (△) - multilevel is toegewezen aan het klikken en vasthouden van de △ knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Dreieck (△) - mehrstufig ist dem Drücken und Halten der (△)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       },
       "10": {
         "hint": {
           "en": "Minus (-) - on/off is assigned to clicking the - button and is used to turn on/off associated devices.",
-          "nl": "Min (-) - aan/uit is toegewezen aan het klikken van de - en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Min (-) - aan/uit is toegewezen aan het klikken van de - en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Minus (-) - an/aus ist dem Drücken der (-)-Taste zugewiesen und wird verwendet, um verbundene Geräte an/auszuschalten."
         }
       },
       "11": {
         "hint": {
           "en": "Minus (-) - multilevel is assigned to clicking and holding the - button and is used to turn on/off and change level of associated devices.",
-          "nl": "Min (-) - multilevel is toegewezen aan het klikken en vasthouden van de - knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Min (-) - multilevel is toegewezen aan het klikken en vasthouden van de - knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Minus (-) - mehrstufig ist dem Drücken und Halten der (-)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       },
       "12": {
         "hint": {
           "en": "Plus (+) - on/off is assigned to clicking the + button and is used to turn on/off associated devices.",
-          "nl": "Plus (+) - aan/uit is toegewezen aan het klikken van de + en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten."
+          "nl": "Plus (+) - aan/uit is toegewezen aan het klikken van de + en wordt gebruikt voor het aan/uit schakelen van geassocieerde apparaten.",
+		  "de": "Plus (+) - an/aus ist dem Drücken der (+)-Taste zugewiesen und wird verwendet, um verbundene Geräte ein-/auszuschalten."
         }
       },
       "13": {
         "hint": {
           "en": "Plus (+) - multilevel is assigned to clicking and holding the + button and is used to turn on/off and change level of associated devices.",
-          "nl": "Plus (+) - multilevel is toegewezen aan het klikken en vasthouden van de + knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten."
+          "nl": "Plus (+) - multilevel is toegewezen aan het klikken en vasthouden van de + knop en wordt gebruikt voor het aan/uit schakelen en niveau veranderen van geassocieerde apparaten.",
+		  "de": "Plus (+) - mehrstufig ist dem Drücken und Halten der (+)-Taste zugewiesen und wird verwendet, um eine Stufe verbundener Geräte zu ändern oder sie ein-/auszuschalten."
         }
       }
     }

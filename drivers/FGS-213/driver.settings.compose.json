@@ -11,8 +11,9 @@
     "$extends": "operatingDevice",
     "id": "20",
     "hint": {
-      "en": "This parameter ({{zwaveParameterIndex}}) determines determines what device triggers the switch.",
-      "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor apparaat de schakelaar omzet."
+      "en": "This parameter ({{zwaveParameterIndex}}) determines what device triggers the switch.",
+      "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor apparaat de schakelaar omzet.",
+	  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, welches Gerät den Schalter betätigt."
     },
     "zwave": {
       "index": 20,
@@ -23,21 +24,24 @@
         "id": "0",
         "label": {
           "en": "Momentary Switch",
-          "nl": "Korstondige schakelaar"
+          "nl": "Korstondige schakelaar",
+		  "de": "Taster"
         }
       },
       {
         "id": "1",
         "label": {
           "en": "Toggle Switch",
-          "nl": "Tuimel Schakelaar"
+          "nl": "Tuimel Schakelaar",
+		  "de": "Kippschalter"
         }
       },
       {
         "id": "2",
         "label": {
           "en": "Toggle Switch",
-          "nl": "Tuimel Schakelaar"
+          "nl": "Tuimel Schakelaar",
+		  "de": "Kippschalter"
         }
       }
     ],
@@ -47,7 +51,8 @@
     "type": "group",
     "label": {
       "en": "Power",
-      "nl": "Stroom"
+      "nl": "Stroom",
+	  "de": "Energie"
     },
     "collapsed": true,
     "children": [
@@ -82,11 +87,13 @@
         "type": "number",
         "label": {
           "en": "Minimum time between wattage reports",
-          "nl": "Minimale tijd tussen wattage verzending"
+          "nl": "Minimale tijd tussen wattage verzending",
+		  "de": "Minimale Zeit zwischen Stromverbrauch-Berichten"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimum time between reports sent to Homey.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum tijd tussen rapportages naar Homey."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum tijd tussen rapportages naar Homey.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale Zeit zwischen an Homey gesendeten Berichten."
         },
         "zwave": {
           "index": 51,
@@ -130,11 +137,13 @@
         "type": "checkbox",
         "label": {
           "en": "Include own power consumption",
-          "nl": "inclusief eigen verbruik"
+          "nl": "inclusief eigen verbruik",
+		  "de": "Eigenen Stromverbrauch einbeziehen"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the power usage of this device is included in the kWh reports.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het stroomverbruik van dit apparaat meegenomen wordt in de kWh rapportages."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het stroomverbruik van dit apparaat meegenomen wordt in de kWh rapportages.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob der Stromverbrauch dieses Gerätes im kWh-Bericht einbezogen wird."
         },
         "zwave": {
           "index": 60,

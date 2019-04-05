@@ -4,7 +4,8 @@
       "id": "FGBS-001_i1_on",
       "title": {
         "en": "Input 1 opened",
-        "nl": "Ingang 1 geopend"
+        "nl": "Ingang 1 geopend",
+		"de": "Eingang 1 geöffnet"
       },
       "args": []
     },
@@ -12,7 +13,8 @@
       "id": "FGBS-001_i1_off",
       "title": {
         "en": "Input 1 closed",
-        "nl": "Ingang 1 gesloten"
+        "nl": "Ingang 1 gesloten",
+		"de": "Eingang 1 geschlossen"
       },
       "args": []
     },
@@ -20,7 +22,8 @@
       "id": "FGBS-001_i1_switch",
       "title": {
         "en": "Input 1 switched",
-        "nl": "Ingang 1 geschakeld"
+        "nl": "Ingang 1 geschakeld",
+		"de": "Eingang 1 geschaltet"
       },
       "args": []
     },
@@ -28,7 +31,8 @@
       "id": "FGBS-001_i2_on",
       "title": {
         "en": "Input 2 opened",
-        "nl": "Ingang 2 geopend"
+        "nl": "Ingang 2 geopend",
+		"de": "Eingang 2 geöffnet"
       },
       "args": []
     },
@@ -36,7 +40,8 @@
       "id": "FGBS-001_i2_off",
       "title": {
         "en": "Input 2 closed",
-        "nl": "Ingang 2 gesloten"
+        "nl": "Ingang 2 gesloten",
+		"de": "Eingang 2 geschlossen"
       },
       "args": []
     },
@@ -44,7 +49,8 @@
       "id": "FGBS-001_i2_switch",
       "title": {
         "en": "Input 2 switched",
-        "nl": "Ingang 2 geschakeld"
+        "nl": "Ingang 2 geschakeld",
+		"de": "Eingang 2 geschaltet"
       },
       "args": []
     },
@@ -52,7 +58,8 @@
       "id": "FGBS-001_temp1",
       "title": {
         "en": "Temperature 1 has changed",
-        "nl": "Temperatuur 1 is veranderd"
+        "nl": "Temperatuur 1 is veranderd",
+		"de": "Tempratur 1 hat sich geändert"
       },
       "args": [],
       "tokens": [
@@ -61,7 +68,8 @@
           "type": "number",
           "title": {
             "en": "Temperature",
-            "nl": "Temperatuur"
+            "nl": "Temperatuur",
+			"de": "Temperatur"
           },
           "example": 18
         }
@@ -71,7 +79,8 @@
       "id": "FGBS-001_temp2",
       "title": {
         "en": "Temperature 2 has changed",
-        "nl": "Temperatuur 2 is veranderd"
+        "nl": "Temperatuur 2 is veranderd",
+		"de": "Temperatur 2 hat sich geändert"
       },
       "args": [],
       "tokens": [
@@ -80,7 +89,8 @@
           "type": "number",
           "title": {
             "en": "Temperature",
-            "nl": "Temperatuur"
+            "nl": "Temperatuur",
+			"de": "Temperatur"
           },
           "example": 18
         }
@@ -90,7 +100,8 @@
       "id": "FGBS-001_temp3",
       "title": {
         "en": "Temperature 3 has changed",
-        "nl": "Temperatuur 3 is veranderd"
+        "nl": "Temperatuur 3 is veranderd",
+		"de": "Temperatur 3 hat sich geändert"		
       },
       "args": [],
       "tokens": [
@@ -99,7 +110,8 @@
           "type": "number",
           "title": {
             "en": "Temperature",
-            "nl": "Temperatuur"
+            "nl": "Temperatuur",
+			"de": "Temperatur"
           },
           "example": 18
         }
@@ -109,7 +121,8 @@
       "id": "FGBS-001_temp4",
       "title": {
         "en": "Temperature 4 has changed",
-        "nl": "Temperatuur 4 is veranderd"
+        "nl": "Temperatuur 4 is veranderd",
+		"de": "Temperatur 4 hat sich geändert"
       },
       "args": [],
       "tokens": [
@@ -118,7 +131,8 @@
           "type": "number",
           "title": {
             "en": "Temperature",
-            "nl": "Temperatuur"
+            "nl": "Temperatuur",
+			"de": "Temperatur"
           },
           "example": 18
         }
@@ -130,7 +144,8 @@
       "id": "FGBS-001_i1",
       "title": {
         "en": "Input 1 !{{is open|is closed}}",
-        "nl": "Ingang 1 !{{is geopend|is gesloten}}"
+        "nl": "Ingang 1 !{{is geopend|is gesloten}}",
+		"de": "Eingang 1 !{{ist offen|ist geschlossen}}"
       },
       "args": []
     },
@@ -138,7 +153,8 @@
       "id": "FGBS-001_i2",
       "title": {
         "en": "Input 2 !{{is open|is closed}}",
-        "nl": "Ingang 2 !{{is geopend|is gesloten}}"
+        "nl": "Ingang 2 !{{is geopend|is gesloten}}",
+		"de": "Eingang 2 !{{ist offen|ist geschlossen}}"
       },
       "args": []
     }

@@ -6,7 +6,8 @@
       "id": "FGWPx-102-PLUS_led_on",
       "title": {
         "en": "LED Colour, On State",
-        "nl": "LED Kleur, Aan Status"
+        "nl": "LED Kleur, Aan Status",
+		"de": "LED-Farbe, An-Zustand"
       },
       "args": [
         {
@@ -17,70 +18,80 @@
               "id": "1",
               "label": {
                 "en": "Power: Predefined Colours",
-                "nl": "Energie: Vooringestelde Kleuren"
+                "nl": "Energie: Vooringestelde Kleuren",
+				"de": "Energie: Vordefinierte Farben"
               }
             },
             {
               "id": "2",
               "label": {
                 "en": "Power: Full Colour Spectrum",
-                "nl": "Energie: Volledig Kleuren Spectrum"
+                "nl": "Energie: Volledig Kleuren Spectrum",
+				"de": "Energie: Volles Farbspektrum"
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "White",
-                "nl": "Wit"
+                "nl": "Wit",
+				"de": "Weiss"
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Red",
-                "nl": "Rood"
+                "nl": "Rood",
+				"de": "Rot"
               }
             },
             {
               "id": "5",
               "label": {
                 "en": "Green",
-                "nl": "Groen"
+                "nl": "Groen",
+				"de": "Grün"
               }
             },
             {
               "id": "6",
               "label": {
                 "en": "Blue",
-                "nl": "Blauw"
+                "nl": "Blauw",
+				"de": "Blau"
               }
             },
             {
               "id": "7",
               "label": {
                 "en": "Yellow",
-                "nl": "Geel"
+                "nl": "Geel",
+				"de": "Gelb"
               }
             },
             {
               "id": "8",
               "label": {
                 "en": "Cyan",
-                "nl": "Cyaan"
+                "nl": "Cyaan",
+				"de": "Cyan"
               }
             },
             {
               "id": "9",
               "label": {
                 "en": "Magenta",
-                "nl": "Magenta"
+                "nl": "Magenta",
+				"de": "Magenta"
               }
             },
             {
               "id": "0",
               "label": {
                 "en": "LED Off",
-                "nl": "LED Uit"
+                "nl": "LED Uit",
+				"de": "LED aus"
               }
             }
           ]
@@ -91,7 +102,8 @@
       "id": "FGWPx-102-PLUS_led_off",
       "title": {
         "en": "LED Colour, Off State",
-        "nl": "LED Kleur, Uit Status"
+        "nl": "LED Kleur, Uit Status",
+		"de": "LED-Farbe, Aus-Zustands"
       },
       "args": [
         {
@@ -102,63 +114,72 @@
               "id": "1",
               "label": {
                 "en": "Last Colour before off",
-                "nl": "Laatste Kleur voor uit"
+                "nl": "Laatste Kleur voor uit",
+				"de": "Letzte Farbe vor aus"
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "White",
-                "nl": "Wit"
+                "nl": "Wit",
+				"de": "Weiss"
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Red",
-                "nl": "Rood"
+                "nl": "Rood",
+				"de": "Rot"
               }
             },
             {
               "id": "5",
               "label": {
                 "en": "Green",
-                "nl": "Groen"
+                "nl": "Groen",
+				"de": "Grün"
               }
             },
             {
               "id": "6",
               "label": {
                 "en": "Blue",
-                "nl": "Blauw"
+                "nl": "Blauw",
+				"de": "Blau"
               }
             },
             {
               "id": "7",
               "label": {
                 "en": "Yellow",
-                "nl": "Geel"
+                "nl": "Geel",
+				"de": "Gelb"
               }
             },
             {
               "id": "8",
               "label": {
                 "en": "Cyan",
-                "nl": "Cyaan"
+                "nl": "Cyaan",
+				"de": "Cyan"
               }
             },
             {
               "id": "9",
               "label": {
                 "en": "Magenta",
-                "nl": "Magenta"
+                "nl": "Magenta",
+				"de": "Magenta"
               }
             },
             {
               "id": "0",
               "label": {
                 "en": "LED Off",
-                "nl": "LED Uit"
+                "nl": "LED Uit",
+				"de": "LED aus"
               }
             }
           ]

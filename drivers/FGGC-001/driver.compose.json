@@ -1,7 +1,8 @@
 {
   "id": "FGGC-001",
   "name": {
-    "en": "Swipe"
+    "en": "Swipe",
+	"de": "Wischen"
   },
   "class": "sensor",
   "capabilities": [
@@ -36,7 +37,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Hold your hand in front of the {{driverNameEn}} for about 7 seconds (until you hear two short beeps). Then perform a swipe up gesture.",
-        "nl": "Houd uw hand voor ongeveer 7 seconden voor de {{driverNameNl}} (totdat u twee korte piepjes hoort). Maak daarna het \"Veeg omhoog\" gebaar."
+        "nl": "Houd uw hand voor ongeveer 7 seconden voor de {{driverNameNl}} (totdat u twee korte piepjes hoort). Maak daarna het \"Veeg omhoog\" gebaar.",
+		"de": "Halte deine Hände für ungefähr 7 Sekunden vor {{driverNameDe}}, bis du zwei kurze Pieptöne hörst. Wische dann nach oben"
       }
     },
     "associationGroups": [
@@ -46,37 +48,43 @@
       "1": {
         "hint": {
           "en": "This is the controller group, it is not recommended to change this.",
-          "nl": "Dit is de controller groep, het is niet aangeraden deze te wijzigen."
+          "nl": "Dit is de controller groep, het is niet aangeraden deze te wijzigen.",
+		  "de": "Das ist die Steuerungsgruppe; es wird nicht empfohlen, Änderungen vorzunehmen."
         }
       },
       "2": {
         "hint": {
           "en": "On/off command, up gesture",
-          "nl": "Aan/uit commando, gebaar omhoog"
+          "nl": "Aan/uit commando, gebaar omhoog",
+		  "de": "An/Aus-Befehl, nach oben wischen"
         }
       },
       "3": {
         "hint": {
           "en": "On/off command, down gesture",
-          "nl": "Aan/uit commando, gebaar omlaag"
+          "nl": "Aan/uit commando, gebaar omlaag",
+		  "de": "An/Aus-Befehl, nach unten wischen"
         }
       },
       "4": {
         "hint": {
           "en": "On/off command, left gesture",
-          "nl": "Aan/uit commando, gebaar naar links"
+          "nl": "Aan/uit commando, gebaar naar links",
+		  "de": "An/Aus-Befehl, nach links wischen"
         }
       },
       "5": {
         "hint": {
           "en": "On/off command, right gesture",
-          "nl": "Aan/uit commando, gebaar naar rechts"
+          "nl": "Aan/uit commando, gebaar naar rechts",
+		  "de": "An/Aus-Befehl, nach rechts wischen"
         }
       },
       "6": {
         "hint": {
           "en": "Start dim/stop dim command, circular gesture",
-          "nl": "Start dim/stop dim commando, rondgaand gebaar"
+          "nl": "Start dim/stop dim commando, rondgaand gebaar",
+		  "de": "Dimmen/Stoppen-Befehl, im Kreis wischen"
         }
       }
     }

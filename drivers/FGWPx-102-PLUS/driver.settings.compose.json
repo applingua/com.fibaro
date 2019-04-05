@@ -3,7 +3,8 @@
     "type": "group",
     "label": {
       "en": "Power",
-      "nl": "Stroom"
+      "nl": "Stroom",
+	  "de": "Energie"
     },
     "collapsed": false,
     "children": [
@@ -26,7 +27,8 @@
     "type": "group",
     "label": {
       "en": "Power (W)",
-      "nl": "Stroom (W)"
+      "nl": "Stroom (W)",
+	  "de": "Energie (W)"
     },
     "collapsed": false,
     "children": [
@@ -75,7 +77,8 @@
     "type": "group",
     "label": {
       "en": "Power (kWh)",
-      "nl": "Stroom (kWh)"
+      "nl": "Stroom (kWh)",
+	  "de": "Energie (kWh)"
     },
     "collapsed": false,
     "children": [
@@ -84,11 +87,13 @@
         "type": "checkbox",
         "label": {
           "en": "Include own power consumption",
-          "nl": "inclusief eigen verbruik"
+          "nl": "inclusief eigen verbruik",
+		  "de": "Eigenen Stromverbrauch einbeziehen"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the kWh usage of the device itself is added to the power usage.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het kWh verbruik van het apparaat bij het totaalverbruik wordt opgeteld."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het kWh verbruik van het apparaat bij het totaalverbruik wordt opgeteld.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob der kWh-Verbrauch des Gerätes selbst zum Gesamtverbrauch hinzugefügt wird."
         },
         "zwave": {
           "index": 15,
@@ -129,7 +134,8 @@
     "type": "group",
     "label": {
       "en": "LED Notifications",
-      "nl": "LED Notificaties"
+      "nl": "LED Notificaties",
+	  "de": "LED-Benachrichtigungen"
     },
     "collapsed": true,
     "children": [
@@ -138,7 +144,8 @@
         "type": "dropdown",
         "label": {
           "en": "Color when on",
-          "nl": "Kleur wanneer aan"
+          "nl": "Kleur wanneer aan",
+		  "de": "Farbe, wenn an"
         },
         "zwave": {
           "index": 41,
@@ -147,77 +154,88 @@
         "value": "0",
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) defines the color of the LED ring in on state.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer het apparaat aan staat."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer het apparaat aan staat.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Farbe des LED-Rings im An-Zustand."
         },
         "values": [
           {
             "id": "1",
             "label": {
               "en": "Changes in predefined steps according to power load",
-              "nl": "Verandert in stappen afhankelijk van het stroomverbuik"
+              "nl": "Verandert in stappen afhankelijk van het stroomverbuik",
+			  "de": "Ändert sich in vordefinierten Schritten anhand des Stromverbrauchs"
             }
           },
           {
             "id": "2",
             "label": {
               "en": "Changes continuously according to power load using full spectrum of LED color",
-              "nl": "Verandert continu afhankelijk van het stroomverbruik"
+              "nl": "Verandert continu afhankelijk van het stroomverbruik",
+			  "de": "Ändert sich kontinuierlich anhand des Stromverbrauchs mithilfe des vollen LED-Farbenspektrums."
             }
           },
           {
             "id": "3",
             "label": {
               "en": "White",
-              "nl": "Wit"
+              "nl": "Wit",
+			  "de": "Weiss"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Red",
-              "nl": "Rood"
+              "nl": "Rood",
+			  "de": "Rot"
             }
           },
           {
             "id": "5",
             "label": {
               "en": "Green",
-              "nl": "Groen"
+              "nl": "Groen",
+			  "de": "Grün"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Blue",
-              "nl": "Blauw"
+              "nl": "Blauw",
+			  "de": "Blau"
             }
           },
           {
             "id": "7",
             "label": {
               "en": "Yellow",
-              "nl": "Geel"
+              "nl": "Geel",
+			  "de": "Gelb"
             }
           },
           {
             "id": "8",
             "label": {
               "en": "Cyan",
-              "nl": "Cyaan"
+              "nl": "Cyaan",
+			  "de": "Cyan"
             }
           },
           {
             "id": "9",
             "label": {
               "en": "Magenta",
-              "nl": "Magenta"
+              "nl": "Magenta",
+			  "de": "Magenta"
             }
           },
           {
             "id": "0",
             "label": {
               "en": "Off",
-              "nl": "Uit"
+              "nl": "Uit",
+			  "de": "Aus"
             }
           }
         ]
@@ -227,7 +245,8 @@
         "type": "dropdown",
         "label": {
           "en": "Color when off",
-          "nl": "Kleur wanneer uit"
+          "nl": "Kleur wanneer uit",
+		  "de": "Farbe, wenn aus"
         },
         "zwave": {
           "index": 42,
@@ -236,70 +255,80 @@
         "value": "0",
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) defines the color of the LED ring in off state.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer het apparaat uit staat."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer het apparaat uit staat.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Farbe des LED-Rings im Aus-Zustand."
         },
         "values": [
           {
             "id": "1",
             "label": {
               "en": "LED ring is illuminated with a color corresponding to the last measured power, before the controlled device was turned off.",
-              "nl": "LED ring is verlicht met een kleur die bij het laatst gemeten stroomverbruik hoort."
+              "nl": "LED ring is verlicht met een kleur die bij het laatst gemeten stroomverbruik hoort.",
+			  "de": "Der LED-Ring leuchtet in einer Farbe passend zum letzten gemessenen Stromverbrauch, bevor das kontrollierte Gerät ausgeschaltet wurde."
             }
           },
           {
             "id": "3",
             "label": {
               "en": "White",
-              "nl": "Wit"
+              "nl": "Wit",
+			  "de": "Weiss"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Red",
-              "nl": "Rood"
+              "nl": "Rood",
+			  "de": "Rot"
             }
           },
           {
             "id": "5",
             "label": {
               "en": "Green",
-              "nl": "Groen"
+              "nl": "Groen",
+			  "de": "Grün"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Blue",
-              "nl": "Blauw"
+              "nl": "Blauw",
+			  "de": "Blau"
             }
           },
           {
             "id": "7",
             "label": {
               "en": "Yellow",
-              "nl": "Geel"
+              "nl": "Geel",
+			  "de": "Gelb"
             }
           },
           {
             "id": "8",
             "label": {
               "en": "Cyan",
-              "nl": "Cyaan"
+              "nl": "Cyaan",
+			  "de": "Cyan"
             }
           },
           {
             "id": "9",
             "label": {
               "en": "Magenta",
-              "nl": "Magenta"
+              "nl": "Magenta",
+			  "de": "Magenta"
             }
           },
           {
             "id": "0",
             "label": {
               "en": "Off",
-              "nl": "Uit"
+              "nl": "Uit",
+			  "de": "Aus"
             }
           }
         ]
@@ -310,7 +339,8 @@
     "type": "group",
     "label": {
       "en": "Associations",
-      "nl": "Associaties"
+      "nl": "Associaties",
+	  "de": "Verbindungen"
     },
     "collapsed": true,
     "children": [
@@ -319,7 +349,8 @@
         "type": "dropdown",
         "label": {
           "en": "Control association group 2",
-          "nl": "Controller associatie groep 2"
+          "nl": "Controller associatie groep 2",
+		  "de": "Controller Verbindungsgruppe 2"
         },
         "zwave": {
           "index": 20,
@@ -328,21 +359,24 @@
         "value": "0",
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the behaviour of the devices associated to group 2 when the B-button is pressed.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van de apparaten in associatie groep 2 wanneer de B-knop ingedrukt word."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van de apparaten in associatie groep 2 wanneer de B-knop ingedrukt word.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt das Verhalten der Geräte aus Gruppe 2, wenn die B-Taste gedrückt wird."
         },
         "values": [
           {
             "id": "0",
             "label": {
               "en": "{{driverNameEn}} off, device(s) also off. {{driverNameEn}} on, device(s) also on",
-              "nl": "{{driverNameNl}} uit, apparaat(en) ook uit. {{driverNameNl}} aan, apparaat(en) ook aan"
+              "nl": "{{driverNameNl}} uit, apparaat(en) ook uit. {{driverNameNl}} aan, apparaat(en) ook aan",
+			  "de": "{{driverNameDe}} aus, Gerät(e) auch aus. {{driverNameDe}} an, Gerät(e) auch an."
             }
           },
           {
             "id": "1",
             "label": {
               "en": "{{driverNameEn}} off, device(s) on. {{driverNameEn}} on, device(s) off",
-              "nl": "{{driverNameNl}} uit, apparaat(en) aan. {{driverNameNl}} aan, apparaat(en) uit"
+              "nl": "{{driverNameNl}} uit, apparaat(en) aan. {{driverNameNl}} aan, apparaat(en) uit",
+			  "de": "{{driverNameDe}} aus, Gerät(e) aus. {{driverNameDe}} an, Gerät(e) an."
             }
           }
         ]

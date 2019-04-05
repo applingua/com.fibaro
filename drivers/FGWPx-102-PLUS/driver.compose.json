@@ -1,7 +1,8 @@
 {
   "name": {
     "en": "Wall plug (Z-Wave plus)",
-    "nl": "Tussenstekker (Z-Wave plus)"
+    "nl": "Tussenstekker (Z-Wave plus)",
+	"de": "Wandstecker (Z-Wave Plus)"
   },
   "class": "socket",
   "capabilities": [
@@ -48,7 +49,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Insert the {{driverNameEn}} in a socket or press the button on your {{driverNameEn}} three times",
-        "nl": "Stop de {{driverNameNl}} in het stopcontact of druk driemaal op de knop op de {{driverNameNl}}"
+        "nl": "Stop de {{driverNameNl}} in het stopcontact of druk driemaal op de knop op de {{driverNameNl}}",
+		"de": "Stecke {{driverNameDe}} in eine Steckdose oder drücke die Taste auf {{driverNameDe}} drei Mal"
       }
     },
     "associationGroups": [
@@ -57,7 +59,8 @@
     "associationGroupsOptions": {
       "1": {
         "hint": {
-          "en": "“Lifeline” reports the device status and allows\r\nfor assigning single device only (main controller by default)."
+          "en": "“Lifeline” reports the device status and allows\r\nfor assigning single device only (main controller by default).",
+		  "de": "“Lifeline” berichtet den Gerätestatus und erlaubt\r\ndas Zuweisen einzelner Geräte (Standardmäßig Main-Controller)."
         }
       }
     }

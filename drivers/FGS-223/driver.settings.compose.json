@@ -8,7 +8,8 @@
     },
     "hint": {
       "en": "This parameter ({{zwaveParameterIndex}}) determines what kind of switch is attached to the module.",
-      "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welk type schakelaar is verbonden aan de module."
+      "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welk type schakelaar is verbonden aan de module.",
+	  "de": "Dieser parameter ({{zwaveParameterIndex}}) bestimmt, welche Art von Schalter mit dem Modul verbunden ist."
     },
     "zwave": {
       "index": 20,
@@ -20,21 +21,24 @@
         "id": "0",
         "label": {
           "en": "Momentary switch",
-          "nl": "Korstondige schakelaar"
+          "nl": "Korstondige schakelaar",
+		  "de": "Taster"
         }
       },
       {
         "id": "1",
         "label": {
           "en": "Toggle switch (Persistent positions)",
-          "nl": "Tuimel schakelaar (Vaste posities)"
+          "nl": "Tuimel schakelaar (Vaste posities)",
+		  "de": "Kippschalter (Feste Positionen)"
         }
       },
       {
         "id": "2",
         "label": {
           "en": "Toggle switch (Toggle status on position change)",
-          "nl": "Tuimel schakelaar (Verander status bij elke positieverandering)"
+          "nl": "Tuimel schakelaar (Verander status bij elke positieverandering)",
+		  "de": "Kippschalter (Schaltet Status bei Positionsänderung um)"
         }
       }
     ]
@@ -43,7 +47,8 @@
     "type": "group",
     "label": {
       "en": "Power",
-      "nl": "Stroom"
+      "nl": "Stroom",
+	  "de": "Energie"
     },
     "collapsed": true,
     "children": [
@@ -52,11 +57,13 @@
         "type": "checkbox",
         "label": {
           "en": "Save power-off state",
-          "nl": "Onthoud status bij stroomuitval"
+          "nl": "Onthoud status bij stroomuitval",
+		  "de": "Energie-Aus-Status speichern"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not this device saves its last state when power is disconnected.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of dit apparaat zijn laatste status onthoud wanneer de stroom eraf word gehaald."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of dit apparaat zijn laatste status onthoud wanneer de stroom eraf word gehaald.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob dieses Gerät seinen letzten Status, speichert wenn der Strom getrennt wird."
         },
         "zwave": {
           "index": 9,
@@ -69,11 +76,13 @@
         "type": "number",
         "label": {
           "en": "Wattage report interval",
-          "nl": "Wattage verzending interval"
+          "nl": "Wattage verzending interval",
+		  "de": "Stromverbrauch-Bericht-Intervall"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the interval at which all values for wattage gets send.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de interval van het versturen van alle waardes voor wattage."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de interval van het versturen van alle waardes voor wattage.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt den Intervall, in dem alle Werte des Stromverbrauchs gesendet werden."
         },
         "zwave": {
           "index": 58,
@@ -90,11 +99,13 @@
         "type": "number",
         "label": {
           "en": "kWh report interval",
-          "nl": "kWh verbruik verzending interval"
+          "nl": "kWh verbruik verzending interval",
+		  "de": "kWh-Bericht-Intervall"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the interval at which all values for kWh gets send.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de interval van het versturen van alle waardes voor kWh."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de interval van het versturen van alle waardes voor kWh.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt den Intervall, in dem alle kWh-Werte gesendet werden."
         },
         "zwave": {
           "index": 59,
@@ -111,11 +122,13 @@
         "type": "checkbox",
         "label": {
           "en": "Include own power consumption",
-          "nl": "inclusief eigen verbruik"
+          "nl": "inclusief eigen verbruik",
+		  "de": "Eigenen Stromverbrauch einbeziehen"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the power consumption (kWh) of the module itself will be added on the total amount.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het energie verbruik (kWh) van de module zelf opgeteld wordt bij de totale hoeveelheid."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het energie verbruik (kWh) van de module zelf opgeteld wordt bij de totale hoeveelheid.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob der Stromverbrauch (kWh) des Moduls selbst zum Gesamtbetrag hinzugefügt wird."
         },
         "zwave": {
           "index": 60,
@@ -129,7 +142,8 @@
     "type": "group",
     "label": {
       "en": "Switch 1 (S1)",
-      "nl": "Schakelaar 1 (S1)"
+      "nl": "Schakelaar 1 (S1)",
+	  "de": "Schalter 1 (S1)"
     },
     "collapsed": true,
     "children": [
@@ -138,11 +152,13 @@
         "type": "number",
         "label": {
           "en": "First node, wattage report threshold",
-          "nl": "Eerste node, wattage verzending drempel"
+          "nl": "Eerste node, wattage verzending drempel",
+		  "de": "Erster Knoten, Stromverbrauch-Bericht-Schwelle"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimum wattage change before the value is being send.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum verandering in wattage voor het verzenden van de waarde."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum verandering in wattage voor het verzenden van de waarde.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale Änderung des Stromverbrauchs, bevor der Wert gesendet wird."
         },
         "zwave": {
           "index": 50,
@@ -159,11 +175,13 @@
         "type": "number",
         "label": {
           "en": "First node, kWh report threshold",
-          "nl": "Eerste node, kWh verzending drempel"
+          "nl": "Eerste node, kWh verzending drempel",
+		  "de": "Erster Knoten, kWh-Bericht-Schwelle"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimum kWh change before the value is being send.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum verandering in kWh voor het verzenden van de waarde."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimum verandering in kWh voor het verzenden van de waarde.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale kWh-Änderung, bevor der Wert gesendet wird."
         },
         "zwave": {
           "index": 53,

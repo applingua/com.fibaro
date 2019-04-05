@@ -4,7 +4,8 @@
       "id": "FGS-213_S1",
       "title": {
         "en": "Left Switch (S1)",
-        "nl": "Linker Schakelaar (S1)"
+        "nl": "Linker Schakelaar (S1)",
+		"de": "Linker Schalter (S1)"
       },
       "args": [
         {
@@ -15,35 +16,40 @@
               "id": "Key Pressed 1 time",
               "label": {
                 "en": "Pressed/switched 1x",
-                "nl": "1x Ingedrukt/geschakeld"
+                "nl": "1x Ingedrukt/geschakeld",
+				"de": "1x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Pressed 2 times",
               "label": {
                 "en": "Pressed/switched 2x",
-                "nl": "2x Ingedrukt/geschakeld"
+                "nl": "2x Ingedrukt/geschakeld",
+				"de": "2x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Pressed 3 times",
               "label": {
                 "en": "Pressed/switched 3x",
-                "nl": "3x Ingedrukt/geschakeld"
+                "nl": "3x Ingedrukt/geschakeld",
+				"de": "3x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Held Down",
               "label": {
                 "en": "Hold switch (momentary switch)",
-                "nl": "Lang ingedrukt (kortstondige schakelaar)"
+                "nl": "Lang ingedrukt (kortstondige schakelaar)",
+				"de": "Lange drücken (Taster)"
               }
             },
             {
               "id": "Key Released",
               "label": {
                 "en": "Hold released (momentary switch)",
-                "nl": "Lang ingedrukt los (kortstondige schakelaar)"
+                "nl": "Lang ingedrukt los (kortstondige schakelaar)",
+				"de": "Langes Drücken loslassen (Taster)"
               }
             }
           ]
@@ -54,7 +60,8 @@
       "id": "FGS-213_S2",
       "title": {
         "en": "Right Switch (S2)",
-        "nl": "Rechter Schakelaar (S2)"
+        "nl": "Rechter Schakelaar (S2)",
+		"de": "Rechter Schalter (S2)"
       },
       "args": [
         {
@@ -65,35 +72,40 @@
               "id": "Key Pressed 1 time",
               "label": {
                 "en": "Pressed/switched 1x",
-                "nl": "1x Ingedrukt/geschakeld"
+                "nl": "1x Ingedrukt/geschakeld",
+				"de": "1x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Pressed 2 times",
               "label": {
                 "en": "Pressed/switched 2x",
-                "nl": "2x Ingedrukt/geschakeld"
+                "nl": "2x Ingedrukt/geschakeld",
+				"de": "2x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Pressed 3 times",
               "label": {
                 "en": "Pressed/switched 3x",
-                "nl": "3x Ingedrukt/geschakeld"
+                "nl": "3x Ingedrukt/geschakeld",
+				"de": "3x gedrückt/geschaltet"
               }
             },
             {
               "id": "Key Held Down",
               "label": {
                 "en": "Hold switch (momentary switch)",
-                "nl": "Lang ingedrukt (kortstondige schakelaar)"
+                "nl": "Lang ingedrukt (kortstondige schakelaar)",
+				"de": "Langes drücken (Taster)"
               }
             },
             {
               "id": "Key Released",
               "label": {
                 "en": "Hold released (momentary switch)",
-                "nl": "Lang ingedrukt los (kortstondige schakelaar)"
+                "nl": "Lang ingedrukt los (kortstondige schakelaar)",
+				"de": "Langes Drücken loslassen (Taster)"
               }
             }
           ]
@@ -107,11 +119,13 @@
       "id": "FGS-213_reset_meter",
       "title": {
         "en": "Reset meter values",
-        "nl": "Meter waarden resetten"
+        "nl": "Meter waarden resetten",
+		"de": "Messwerte zurücksetzen"
       },
       "hint": {
         "en": "Reset the accumulated power usage (kWh). Can not be reversed.",
-        "nl": "Reset de stroomverbruik (kWh) waarden. Kan niet ongedaan worden gemaakt."
+        "nl": "Reset de stroomverbruik (kWh) waarden. Kan niet ongedaan worden gemaakt.",
+		"de": "Setzt den gesamten Stromverbrauch (kWh) zurück. Kann nicht rückgängig gemacht werden."
       },
       "args": []
     }

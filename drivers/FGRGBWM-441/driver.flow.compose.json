@@ -4,7 +4,8 @@
       "id": "RGBW_input_on",
       "title": {
         "en": "In-/output turned on",
-        "nl": "In-/uitgang aan geschakeld"
+        "nl": "In-/uitgang aan geschakeld",
+		"de": "Ein-/Ausgang eingeschaltet"
       },
       "args": [
         {
@@ -15,28 +16,32 @@
               "id": "1",
               "label": {
                 "en": "Input 1",
-                "nl": "Ingang 1"
+                "nl": "Ingang 1",
+				"de": "Eingang 1"
               }
             },
             {
               "id": "2",
               "label": {
                 "en": "Input 2",
-                "nl": "Ingang 2"
+                "nl": "Ingang 2",
+				"de": "Eingang 2"
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "Input 3",
-                "nl": "Ingang 3"
+                "nl": "Ingang 3",
+				"de": "Eingang 3"
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Input 4",
-                "nl": "Ingang 4"
+                "nl": "Ingang 4",
+				"de": "Eingang 4"
               }
             }
           ]
@@ -47,7 +52,8 @@
       "id": "RGBW_input_off",
       "title": {
         "en": "In-/output turned off",
-        "nl": "In-/uitgang uit geschakeld"
+        "nl": "In-/uitgang uit geschakeld",
+		"de": "Ein-/Ausgang ausgeschaltet"
       },
       "args": [
         {
@@ -58,28 +64,32 @@
               "id": "1",
               "label": {
                 "en": "Input 1",
-                "nl": "Ingang 1"
+                "nl": "Ingang 1",
+				"de": "Eingang 1"
               }
             },
             {
               "id": "2",
               "label": {
                 "en": "Input 2",
-                "nl": "Ingang 2"
+                "nl": "Ingang 2",
+				"de": "Eingang 2"
               }
             },
             {
               "id": "3",
               "label": {
                 "en": "Input 3",
-                "nl": "Ingang 3"
+                "nl": "Ingang 3",
+				"de": "Eingang 3"
               }
             },
             {
               "id": "4",
               "label": {
                 "en": "Input 4",
-                "nl": "Ingang 4"
+                "nl": "Ingang 4",
+				"de": "Eingang 4"
               }
             }
           ]
@@ -90,11 +100,13 @@
       "id": "RGBW_volt_input1",
       "title": {
         "en": "Voltage input 1 changed",
-        "nl": "Voltage ingang 1 veranderd"
+        "nl": "Voltage ingang 1 veranderd",
+		"de": "Spannung Eingang 1 verändert"
       },
       "hint": {
         "en": "This will only trigger if the input type is set to analog",
-        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog"
+        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog",
+		"de": "Das wird nur ausgelöst, wenn der Eingangstyp auf analog gesetzt ist"
       },
       "args": [],
       "tokens": [
@@ -112,11 +124,13 @@
       "id": "RGBW_volt_input2",
       "title": {
         "en": "Voltage input 2 changed",
-        "nl": "Voltage ingang 2 veranderd"
+        "nl": "Voltage ingang 2 veranderd",
+		"de": "Spannung Eingang 2 verändert"
       },
       "hint": {
         "en": "This will only trigger if the input type is set to analog",
-        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog"
+        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog",
+		"de": "Das wird nur ausgelöst, wenn der Eingangstyp auf analog gesetzt wird"
       },
       "args": [],
       "tokens": [
@@ -134,11 +148,13 @@
       "id": "RGBW_volt_input3",
       "title": {
         "en": "Voltage input 3 changed",
-        "nl": "Voltage ingang 3 veranderd"
+        "nl": "Voltage ingang 3 veranderd",
+		"de": "Spannung Eingang 3 verändert"
       },
       "hint": {
         "en": "This will only trigger if the input type is set to analog",
-        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog"
+        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog",
+		"de": "Das wird nur ausgelöst, wenn der Eingangstyp auf analog gesetzt ist"
       },
       "args": [],
       "tokens": [
@@ -156,11 +172,13 @@
       "id": "RGBW_volt_input4",
       "title": {
         "en": "Voltage input 4 changed",
-        "nl": "Voltage ingang 4 veranderd"
+        "nl": "Voltage ingang 4 veranderd",
+		"de": "Spannung Eingang 4 verändert"
       },
       "hint": {
         "en": "This will only trigger if the input type is set to analog",
-        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog"
+        "nl": "Dit zal alleen werken wanneer het ingangtype staat ingesteld op analoog",
+		"de": "Das wird nur ausgelöst, wenn der Eingangstyp auf analog gesetzt wird"
       },
       "args": [],
       "tokens": [
@@ -181,7 +199,8 @@
       "id": "RGBW_specific",
       "title": {
         "en": "Set specific brightness",
-        "nl": "Stel specifieke helderheid in"
+        "nl": "Stel specifieke helderheid in",
+		"de": "Spezifische Helligkeit setzen"
       },
       "args": [
         {
@@ -192,28 +211,32 @@
               "id": "r",
               "label": {
                 "en": "Red output",
-                "nl": "Rode uitgang"
+                "nl": "Rode uitgang",
+				"de": "Roter Ausgang"
               }
             },
             {
               "id": "g",
               "label": {
                 "en": "Green output",
-                "nl": "Groene uitgang"
+                "nl": "Groene uitgang",
+				"de": "Grüner Ausgang"
               }
             },
             {
               "id": "b",
               "label": {
                 "en": "Blue output",
-                "nl": "Blauwe uitgang"
+                "nl": "Blauwe uitgang",
+				"de": "Blauer Ausgang"
               }
             },
             {
               "id": "w",
               "label": {
                 "en": "White output",
-                "nl": "Witte uitgang"
+                "nl": "Witte uitgang",
+				"de": "Weisser Ausgang"
               }
             }
           ]
@@ -233,7 +256,8 @@
       "id": "RGBW_random",
       "title": {
         "en": "Choose a random color",
-        "nl": "Kies een willekeurige kleur"
+        "nl": "Kies een willekeurige kleur",
+		"de": "Wähle eine zufällige Farbe"
       },
       "args": [
         {
@@ -244,49 +268,56 @@
               "id": "rgb",
               "label": {
                 "en": "RGB",
-                "nl": "RGB"
+                "nl": "RGB",
+				"de": "RGB"
               }
             },
             {
               "id": "rgbw",
               "label": {
                 "en": "RGB with white",
-                "nl": "RGB met wit"
+                "nl": "RGB met wit",
+				"de": "RGB mit weiss"
               }
             },
             {
               "id": "rgb-w",
               "label": {
                 "en": "RGB or white",
-                "nl": "RGB of wit"
+                "nl": "RGB of wit",
+				"de": "RGB oder weiss"
               }
             },
             {
               "id": "r-g-b",
               "label": {
                 "en": "Primary",
-                "nl": "Primair"
+                "nl": "Primair",
+				"de": "Primär"
               }
             },
             {
               "id": "r-g-b-w",
               "label": {
                 "en": "Primary or white",
-                "nl": "Primair of wit"
+                "nl": "Primair of wit",
+				"de": "Primär oder weiss"
               }
             },
             {
               "id": "r-y-g-c-b-m",
               "label": {
                 "en": "Primary/secundary",
-                "nl": "Primair/secundair"
+                "nl": "Primair/secundair",
+				"de": "Primär/sekundär"
               }
             },
             {
               "id": "r-y-g-c-b-m-w",
               "label": {
                 "en": "Primary/secundary or white",
-                "nl": "Primair/secundair of wit"
+                "nl": "Primair/secundair of wit",
+				"de": "Primär/sekundär oder weiss"
               }
             }
           ]
@@ -297,11 +328,13 @@
       "id": "RGBW_animation",
       "title": {
         "en": "Choose an animation",
-        "nl": "Kies een animatie"
+        "nl": "Kies een animatie",
+		"de": "Wähle eine Animation"
       },
       "hint": {
         "en": "Animations only work if the mode type is set to RGB(W)",
-        "nl": "Animaties werken alleen als de mode type is ingesteld op RGB(W)"
+        "nl": "Animaties werken alleen als de mode type is ingesteld op RGB(W)",
+		"de": "Animationen funktionieren nur, wenn der Modus auf RGB (W) gesetzt ist"
       },
       "args": [
         {
@@ -312,56 +345,64 @@
               "id": "6",
               "label": {
                 "en": "Fire",
-                "nl": "Vuur"
+                "nl": "Vuur",
+				"de": "Feuer"
               }
             },
             {
               "id": "7",
               "label": {
                 "en": "Storm/lightning",
-                "nl": "Storm/onweer"
+                "nl": "Storm/onweer",
+				"de": "Sturm/Gewitter"
               }
             },
             {
               "id": "8",
               "label": {
                 "en": "Rainbow",
-                "nl": "Regenboog"
+                "nl": "Regenboog",
+				"de": "Regenbogen"
               }
             },
             {
               "id": "9",
               "label": {
                 "en": "Aurora",
-                "nl": "Aurora"
+                "nl": "Aurora",
+				"de": "Polarlicht"
               }
             },
             {
               "id": "10",
               "label": {
                 "en": "Police",
-                "nl": "Politie"
+                "nl": "Politie",
+				"de": "Polizei"
               }
             },
             {
               "id": "11",
               "label": {
                 "en": "Random animation",
-                "nl": "Willekeurige animatie"
+                "nl": "Willekeurige animatie",
+				"de": "Zufällige Animation"
               }
             },
             {
               "id": "1",
               "label": {
                 "en": "Stop animation",
-                "nl": "Stop animatie"
+                "nl": "Stop animatie",
+				"de": "Animation stoppen"
               }
             },
             {
               "id": "0",
               "label": {
                 "en": "Stop animation, back to previous state",
-                "nl": "Stop animatie, herstel vorige status"
+                "nl": "Stop animatie, herstel vorige status",
+				"de": "Animation stoppen, zurück zum vorherigen Zustand"
               }
             }
           ]
@@ -372,11 +413,13 @@
       "id": "FGRGBWM-441_reset_meter",
       "title": {
         "en": "Reset meter values",
-        "nl": "Meter waarden resetten"
+        "nl": "Meter waarden resetten",
+		"de": "Messwerte zurücksetzen"
       },
       "hint": {
         "en": "Reset the accumulated power usage (KWh). Can not be reversed.",
-        "nl": "Reset de stroomberbruik (KWh) waarden. Kan niet ongedaan gemaakt worden."
+        "nl": "Reset de stroomberbruik (KWh) waarden. Kan niet ongedaan gemaakt worden.",
+		"de": "Setzt den gesamten Stromverbrauch (kWh) zurück. Kann nicht rückgängig gemacht werden."
       }
     }
   ]

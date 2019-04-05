@@ -3,7 +3,8 @@
     "type": "group",
     "label": {
       "en": "Button behaviour",
-      "nl": "Gedrag knoppen"
+      "nl": "Gedrag knoppen",
+	  "de": "Tastenverhalten"
     },
     "collapsed": false,
     "children": [
@@ -12,12 +13,14 @@
         "type": "checkbox",
         "label": {
           "en": "Double click",
-          "nl": "Dubbel klik"
+          "nl": "Dubbel klik",
+		  "de": "Doppelklick"
         },
         "value": false,
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not double clicking sets the brightness level to maximum.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of de helderheid naar maximaal wordt ingesteld bij tweemaal drukken."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of de helderheid naar maximaal wordt ingesteld bij tweemaal drukken.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob Doppelklicken die Helligkeit auf Maximum setzt."
         },
         "zwave": {
           "index": 15,
@@ -29,12 +32,14 @@
         "type": "checkbox",
         "label": {
           "en": "3-way switch function",
-          "nl": "Hotelschakeling functie"
+          "nl": "Hotelschakeling functie",
+		  "de": "Dreiwegeschalter-Funktion"
         },
         "value": false,
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not input 2 additionally controls the output 2.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of ingang 2 schakelt ook uitgang 2 bedient."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of ingang 2 schakelt ook uitgang 2 bedient.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob Eingang 2 zusätzlich Ausgang 2 kontrolliert."
         },
         "zwave": {
           "index": 17,
@@ -46,12 +51,14 @@
         "type": "dropdown",
         "label": {
           "en": "Switch type",
-          "nl": "Schakelaar type"
+          "nl": "Schakelaar type",
+		  "de": "Schaltertyp"
         },
         "value": "0",
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether this device behaves like a momentary switch or a toggle switch.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of dit apparaat zich gedraagt als een kortstondige schakelaar of een tuimelschakelaar."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of dit apparaat zich gedraagt als een kortstondige schakelaar of een tuimelschakelaar.",
+		  "de": "Dieser Parameter ([[zwaveParameterIndex}}) bestimmt, ob sich dieses Gerät wie ein Taster oder ein Kippschalter verhält."
         },
         "zwave": {
           "index": 14,
@@ -62,21 +69,24 @@
             "id": "0",
             "label": {
               "en": "Momentary switch",
-              "nl": "Pulsdruk schakelaar"
+              "nl": "Pulsdruk schakelaar",
+			  "de": "Taster"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Toggle switch",
-              "nl": "Tuimel schakelaar"
+              "nl": "Tuimel schakelaar",
+			  "de": "Kippschalter"
             }
           },
           {
             "id": "2",
             "label": {
               "en": "Roller blind Switch (UP | DOWN)",
-              "nl": "Rolgordijn schakelaar (OP | NEER)"
+              "nl": "Rolgordijn schakelaar (OP | NEER)",
+			  "de": "Rolladen-Schalter (HOCH | RUNTER)"
             }
           }
         ]
@@ -87,7 +97,8 @@
     "type": "group",
     "label": {
       "en": "Dimming",
-      "nl": "Dimmen"
+      "nl": "Dimmen",
+	  "de": "Dimmen"
     },
     "collapsed": true,
     "children": [
@@ -96,7 +107,8 @@
         "type": "number",
         "label": {
           "en": "Minimum brightness level",
-          "nl": "Minimale helderheidsniveau"
+          "nl": "Minimale helderheidsniveau",
+		  "de": "Minimale Helligkeit"
         },
         "value": 1,
         "attr": {
@@ -105,7 +117,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimal brightness level.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het minimale helderheidsniveau."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het minimale helderheidsniveau.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale Helligkeit."
         },
         "zwave": {
           "index": 13,
@@ -117,7 +130,8 @@
         "type": "number",
         "label": {
           "en": "Maximum brightness level",
-          "nl": "Maximaal helderheidsniveau"
+          "nl": "Maximaal helderheidsniveau",
+		  "de": "Maximale Helligkeit"
         },
         "value": 99,
         "attr": {
@@ -126,7 +140,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the miniaml brightness level.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het maximale helderheidsniveau."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het maximale helderheidsniveau.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale Helligkeit."
         },
         "zwave": {
           "index": 12,
@@ -138,7 +153,8 @@
         "type": "number",
         "label": {
           "en": "Dim step size with automatic control",
-          "nl": "Stapgrootte dimmen bij automatische besturing"
+          "nl": "Stapgrootte dimmen bij automatische besturing",
+		  "de": "Schrittgröße dimmen mit automatischer Kontrolle"
         },
         "value": 1,
         "attr": {
@@ -147,7 +163,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the percentage of a dimming step at automatic control.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het percentage per dim stap bij automatische besturing."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het percentage per dim stap bij automatische besturing.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt den Anteil einer Dimmstufe bei automatischer Kontrolle."
         },
         "zwave": {
           "index": 8,
@@ -159,7 +176,8 @@
         "type": "number",
         "label": {
           "en": "Time of a dimming step at automatic control",
-          "nl": "Tijd per dim stap bij automatische besturing"
+          "nl": "Tijd per dim stap bij automatische besturing",
+		  "de": "Zeit einer Dimmstufe bei automatischer Kontrolle"
         },
         "value": 1,
         "attr": {
@@ -168,7 +186,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the time of a dimming step at automatic control.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd per dim stap bij automatische besturing."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd per dim stap bij automatische besturing.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Zeit einer Dimmstufe bei automatischer Kontrolle."
         },
         "zwave": {
           "index": 10,
@@ -180,7 +199,8 @@
         "type": "number",
         "label": {
           "en": "The percentage of a dimming step at manual control",
-          "nl": "Percentage van dim stap bij handmatige bediening"
+          "nl": "Percentage van dim stap bij handmatige bediening",
+		  "de": "Der Anteil einer Dimmstufe bei manueller Kontrolle"
         },
         "value": 1,
         "attr": {
@@ -189,7 +209,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the percentage of a dimming step at manual control.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het percentage per dim stap bij handmatige besturing."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het percentage per dim stap bij handmatige besturing.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt den Anteil einer Dimmstufe bei manueller Kontrolle."
         },
         "zwave": {
           "index": 11,
@@ -201,7 +222,8 @@
         "type": "number",
         "label": {
           "en": "Time of a dimming step at manual control",
-          "nl": "Tijd per dim stap bij handmatige bediening"
+          "nl": "Tijd per dim stap bij handmatige bediening",
+		  "de": "Zeit einer Dimmstufe bei manueller Kontrolle"
         },
         "value": 5,
         "attr": {
@@ -210,7 +232,8 @@
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the time of a dimming step at manual control.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd per dim stap bij handmatige besturing."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd per dim stap bij handmatige besturing.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Zeit einer Dimmstufe bei manueller Kontrolle."
         },
         "zwave": {
           "index": 9,
@@ -223,7 +246,8 @@
     "type": "group",
     "label": {
       "en": "Power",
-      "nl": "Stroom"
+      "nl": "Stroom",
+	  "de": "Energie"
     },
     "collapsed": true,
     "children": [

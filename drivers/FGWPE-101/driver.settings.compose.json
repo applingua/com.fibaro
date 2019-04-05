@@ -3,7 +3,8 @@
         "type": "group",
         "label": {
             "en": "On/off",
-            "nl": "Aan/uit"
+            "nl": "Aan/uit",
+			"de": "An/Aus"
         },
         "collapsed": false,
         "children": [
@@ -21,7 +22,8 @@
         "type": "group",
         "label": {
             "en": "Power (W)",
-            "nl": "Stroom (W)"
+            "nl": "Stroom (W)",
+			"de": "Energie (W)"
         },
         "collapsed": false,
         "children": [
@@ -71,7 +73,8 @@
         "type": "group",
         "label": {
             "en": "Power (kWh)",
-            "nl": "Stroom (kWh)"
+            "nl": "Stroom (kWh)",
+			"de": "Energie (kWh)"
         },
         "collapsed": false,
         "children": [
@@ -80,11 +83,13 @@
                 "type": "checkbox",
                 "label": {
                     "en": "Include own power consumption",
-                    "nl": "inclusief eigen verbruik"
+                    "nl": "inclusief eigen verbruik",
+					"de": "Eigenen Energieverbrauch einbeziehen"
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the kWh usage of the device itself is added to the power usage.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het kWh verbruik van het apparaat bij het totaalverbruik wordt opgeteld."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het kWh verbruik van het apparaat bij het totaalverbruik wordt opgeteld.",
+					"de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob der kWh-Verbrauch des Gerätes selbst dem Energieverbrauch hinzugefügt wird."
                 },
                 "zwave": {
                     "index": 49,
@@ -127,7 +132,8 @@
         "type": "group",
         "label": {
             "en": "LED notifications",
-            "nl": "LED notificaties"
+            "nl": "LED notificaties",
+			"de": "LED-Benachrichtigungen"
         },
         "collapsed": true,
         "children": [
@@ -136,12 +142,14 @@
                 "type": "dropdown",
                 "label": {
                     "en": "Color when on",
-                    "nl": "Kleur wanneer aan"
+                    "nl": "Kleur wanneer aan",
+					"de": "Farbe wenn an"
                 },
                 "value": "0",
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) defines the color of the LED ring in on state.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer dit apparaat aan staat."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer dit apparaat aan staat.",
+					"de": "Dieser Parameter ({{zwaveParameterIndex}}) definiert die Farbe des LED-Rings im An-Zustand."
                 },
                 "zwave": {
                     "index": 61,
@@ -152,70 +160,80 @@
                         "id": "0",
                         "label": {
                             "en": "Changes in predefined steps according to power load",
-                            "nl": "Verandert in stappen afhankelijk van het stroomverbuik"
+                            "nl": "Verandert in stappen afhankelijk van het stroomverbuik",
+							"de": "Ändert sich in vordefinierten Schritten gemäß Energieverbrauch"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "Changes continuously according to power load using full spectrum of LED color",
-                            "nl": "Verandert continu afhankelijk van het stroomverbruik"
+                            "nl": "Verandert continu afhankelijk van het stroomverbruik",
+							"de": "Ändert sich kontinuierlich gemäß Energieverbrauch mit vollem LED-Farbspektrum"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "White",
-                            "nl": "Wit"
+                            "nl": "Wit",
+							"de": "Weiss"
                         }
                     },
                     {
                         "id": "3",
                         "label": {
                             "en": "Red",
-                            "nl": "Rood"
+                            "nl": "Rood",
+							"de": "Rot"
                         }
                     },
                     {
                         "id": "4",
                         "label": {
                             "en": "Green",
-                            "nl": "Groen"
+                            "nl": "Groen",
+							"de": "Grün"
                         }
                     },
                     {
                         "id": "5",
                         "label": {
                             "en": "Blue",
-                            "nl": "Blauw"
+                            "nl": "Blauw",
+							"de": "Blau"
                         }
                     },
                     {
                         "id": "6",
                         "label": {
                             "en": "Yellow",
-                            "nl": "Geel"
+                            "nl": "Geel",
+							"de": "Gelb"
                         }
                     },
                     {
                         "id": "7",
                         "label": {
                             "en": "Cyan",
-                            "nl": "Cyaan"
+                            "nl": "Cyaan",
+							"de": "Cyan"
                         }
                     },
                     {
                         "id": "8",
                         "label": {
                             "en": "Magenta",
-                            "nl": "Magenta"
+                            "nl": "Magenta",
+							"de": "Magenta"
                         }
                     },
                     {
                         "id": "9",
                         "label": {
                             "en": "Off",
-                            "nl": "Uit"
+                            "nl": "Uit",
+							"de": "Aus"
                         }
                     }
                 ]
@@ -225,12 +243,14 @@
                 "type": "dropdown",
                 "label": {
                     "en": "Color when off",
-                    "nl": "Kleur wanneer uit"
+                    "nl": "Kleur wanneer uit",
+					"de": "Farbe wenn aus"
                 },
                 "value": "0",
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) defines the color of the LED ring in off state.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer dit apparaat uit staat."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de kleur van de LED ring wanneer dit apparaat uit staat.",
+					"de": "Dieser Parameter ({{zwaveParameterIndex}}) definiert die Farbe des LED-Rings im Aus-Zustand."
                 },
                 "zwave": {
                     "index": 62,
@@ -241,63 +261,72 @@
                         "id": "0",
                         "label": {
                             "en": "LED ring is illuminated with a color corresponding to the last measured power, before the controlled device was turned off.",
-                            "nl": "LED ring is verlicht met een kleur die bij het laatst gemeten stroomverbruik hoort."
+                            "nl": "LED ring is verlicht met een kleur die bij het laatst gemeten stroomverbruik hoort.",
+							"de": "LED-Ring wird mit einer Farbe gemäß zuletzt gemessenem Energieverbrauch, bevor das kontrollierte Gerät ausgeschaltet wurde, beleuchtet."
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "White",
-                            "nl": "Wit"
+                            "nl": "Wit",
+							"de": "Weiss"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "Red",
-                            "nl": "Rood"
+                            "nl": "Rood",
+							"de": "Rot"
                         }
                     },
                     {
                         "id": "3",
                         "label": {
                             "en": "Green",
-                            "nl": "Groen"
+                            "nl": "Groen",
+							"de": "Grün"
                         }
                     },
                     {
                         "id": "4",
                         "label": {
                             "en": "Blue",
-                            "nl": "Blauw"
+                            "nl": "Blauw",
+							"de": "Blau"
                         }
                     },
                     {
                         "id": "5",
                         "label": {
                             "en": "Yellow",
-                            "nl": "Geel"
+                            "nl": "Geel",
+							"de": "Gelb"
                         }
                     },
                     {
                         "id": "6",
                         "label": {
                             "en": "Cyan",
-                            "nl": "Cyaan"
+                            "nl": "Cyaan",
+							"de": "Cyan"
                         }
                     },
                     {
                         "id": "7",
                         "label": {
                             "en": "Magenta",
-                            "nl": "Magenta"
+                            "nl": "Magenta",
+							"de": "Magenta"
                         }
                     },
                     {
                         "id": "8",
                         "label": {
                             "en": "Off",
-                            "nl": "Uit"
+                            "nl": "Uit",
+							"de": "Aus"
                         }
                     }
                 ]

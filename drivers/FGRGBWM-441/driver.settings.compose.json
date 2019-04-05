@@ -3,7 +3,8 @@
     "type": "group",
     "label": {
       "en": "LED strip",
-      "nl": "LED strip"
+      "nl": "LED strip",
+	  "de": "LED-Streifen"
     },
     "collapsed": false,
     "children": [
@@ -12,11 +13,13 @@
         "type": "dropdown",
         "label": {
           "en": "LED strip type",
-          "nl": "LED strip type"
+          "nl": "LED strip type",
+		  "de": "LED-Streifentyp"
         },
         "hint": {
           "en": "This setting determines what kind of LED strip is connected to the {{driverNameEn}}.",
-          "nl": "Deze instelling bepaalt wat voor soort LED strip er is aangesloten op de {{driverNameNl}}."
+          "nl": "Deze instelling bepaalt wat voor soort LED strip er is aangesloten op de {{driverNameNl}}.",
+		  "de": "Diese Einstellung bestimmt, welche Art von LED-Streifen mit {{driverNameDe}} verbunden ist."
         },
         "value": "rgbw",
         "values": [
@@ -24,56 +27,64 @@
             "id": "scr",
             "label": {
               "en": "Red LED",
-              "nl": "Rode LED"
+              "nl": "Rode LED",
+			  "de": "Rote LED"
             }
           },
           {
             "id": "scg",
             "label": {
               "en": "Green LED",
-              "nl": "Groene LED"
+              "nl": "Groene LED",
+			  "de": "Grüne LED"
             }
           },
           {
             "id": "scb",
             "label": {
               "en": "Blue LED",
-              "nl": "Blauwe LED"
+              "nl": "Blauwe LED",
+			  "de": "Blaue LED"
             }
           },
           {
             "id": "scw",
             "label": {
               "en": "White LED",
-              "nl": "Witte LED"
+              "nl": "Witte LED",
+			  "de": "Weisse LED"
             }
           },
           {
             "id": "cct",
             "label": {
               "en": "Color temperature (blue and white channel)",
-              "nl": "Kleurtemperatuur (blauwe en witte kanaal)"
+              "nl": "Kleurtemperatuur (blauwe en witte kanaal)",
+			  "de": "Farbtemperatur (blauer und weisser Kanal)"
             }
           },
           {
             "id": "rgb",
             "label": {
               "en": "Red, green and blue (RGB)",
-              "nl": "Rood, groen en blauw (RGB)"
+              "nl": "Rood, groen en blauw (RGB)",
+			  "de": "Rot, grün und blau (RGB)"
             }
           },
           {
             "id": "rgbw",
             "label": {
               "en": "Red, green, blue and white (RGBW)",
-              "nl": "Rood, groen, blauw en wit (RGBW)"
+              "nl": "Rood, groen, blauw en wit (RGBW)",
+			  "de": "Rot, grün, blau und weiss (RGBW)"
             }
           },
           {
             "id": "other",
             "label": {
               "en": "Other/none",
-              "nl": "Anders/geen"
+              "nl": "Anders/geen",
+			  "de": "Andere/keine"
             }
           }
         ]
@@ -84,7 +95,8 @@
   "type": "group",
   "label": {
     "en": "Brightness",
-    "nl": "Helderheid"
+    "nl": "Helderheid",
+	"de": "Helligkeit"
   },
   "collapsed": true,
   "children": [
@@ -93,11 +105,13 @@
         "type": "number",
         "label": {
           "en": "Maximum brightness",
-          "nl": "Maximale helderheid"
+          "nl": "Maximale helderheid",
+		  "de": "Maximale Helligkeit"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the maximum brightness the module will output.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de maximale helderheid van de module."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de maximale helderheid van de module.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die maximale Helligkeit, die dieses Modul abgibt."
         },
         "zwave": {
           "index": 12,
@@ -115,11 +129,13 @@
         "type": "number",
         "label": {
           "en": "Minimum brightness",
-          "nl": "Minimale helderheid"
+          "nl": "Minimale helderheid",
+		  "de": "Minimale Helligkeit"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimum brightness the module will output.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimale helderheid van de module."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimale helderheid van de module.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale Helligkeit, die dieses Modul abgibt."
         },
         "zwave": {
           "index": 13,
@@ -138,7 +154,8 @@
     "type": "group",
     "label": {
       "en": "White LED",
-      "nl": "Witte LED"
+      "nl": "Witte LED",
+	  "de": "Weisse LED"
     },
     "collapsed": true,
     "children": [
@@ -147,11 +164,13 @@
         "type": "checkbox",
         "label": {
           "en": "Temperature with white LED",
-          "nl": "Temperatuur met witte LED"
+          "nl": "Temperatuur met witte LED",
+		  "de": "Temperatur mit weisser LED"
         },
         "hint": {
           "en": "Determines whether the white LED will also be used for color temperature, only related to RGBW strips.",
-          "nl": "Bepaalt of de witte LED ook wordt gebruikt bij kleurtemperatuur, alleen van toepassing bij RGBW strips."
+          "nl": "Bepaalt of de witte LED ook wordt gebruikt bij kleurtemperatuur, alleen van toepassing bij RGBW strips.",
+		  "de": "Bestimmt, ob die weisse LED auch für die Farbtemperatur verwendet wird; nur bezogen auf RGBW-Streifen."
         },
         "value": true
       },
@@ -160,11 +179,13 @@
         "type": "dropdown",
         "label": {
           "en": "White temperature (Kelvin)",
-          "nl": "Wit temperatuur (Kelvin)"
+          "nl": "Wit temperatuur (Kelvin)",
+		  "de": "Weisse Temperatur (Kelvin)"
         },
         "hint": {
           "en": "Determine the temperature of the white LED. Only related to RGBW strips.",
-          "nl": "Bepaalt de temperatuur van de witte LED. Alleen van toepassing bij RGBW strips."
+          "nl": "Bepaalt de temperatuur van de witte LED. Alleen van toepassing bij RGBW strips.",
+		  "de": "Bestimmt die Temperatur der weissen LED; nur bezogen auf RGBW-Streifen."
         },
         "value": "ww",
         "values": [
@@ -172,28 +193,32 @@
             "id": "eww",
             "label": {
               "en": "Extra warm white (2200K - 2400K)",
-              "nl": "Extra warm wit (2200K - 2400K)"
+              "nl": "Extra warm wit (2200K - 2400K)",
+			  "de": "Extra warmweiss (2200K - 2400K)"
             }
           },
           {
             "id": "ww",
             "label": {
               "en": "Warm white (2600K - 2800K)",
-              "nl": "Warm wit (2600K - 2800K)"
+              "nl": "Warm wit (2600K - 2800K)",
+			  "de": "Warmweiss (2600K - 2800K)"
             }
           },
           {
             "id": "nw",
             "label": {
               "en": "Neutral white (3200K - 4500K)",
-              "nl": "Neutraal wit (3200K - 4500K)"
+              "nl": "Neutraal wit (3200K - 4500K)",
+			  "de": "Neutrales Weiss (3200K - 4500K)"
             }
           },
           {
             "id": "cw",
             "label": {
               "en": "Cold white (>5000K)",
-              "nl": "Koud wit (>5000K)"
+              "nl": "Koud wit (>5000K)",
+			  "de": "Kaltweiss (>5000K)"
             }
           }
         ]
@@ -203,11 +228,13 @@
         "type": "number",
         "label": {
           "en": "Calibrate white LED",
-          "nl": "Kalibreer witte LED"
+          "nl": "Kalibreer witte LED",
+		  "de": "Weisse LED kalibrieren"
         },
         "hint": {
           "en": "Calibrate when the white LED will be at its brightest with color temperature.",
-          "nl": "Kalibreer op welk punt de witte LED het felst schijnt met kleur temperatuur."
+          "nl": "Kalibreer op welk punt de witte LED het felst schijnt met kleur temperatuur.",
+		  "de": "Kalibriere, wann die weisse LED die hellste Farbtemperatur erreicht."
         },
         "attr": {
           "min": -25,
@@ -220,11 +247,13 @@
         "type": "number",
         "label": {
           "en": "Saturation to white LED",
-          "nl": "Verzadiging naar witte LED"
+          "nl": "Verzadiging naar witte LED",
+		  "de": "Sättigung der weissen LED"
         },
         "hint": {
           "en": "Determine under what saturation level it will transition to the white LED. 0 = No transition to white LED.",
-          "nl": "Bepaal onder welk verzadigingsniveau het over zal gaan op de witte LED. 0 = Geen overgang naar witte LED."
+          "nl": "Bepaal onder welk verzadigingsniveau het over zal gaan op de witte LED. 0 = Geen overgang naar witte LED.",
+		  "de": "Bestimme, unter welcher Sättigungsstufe es zur weissen LED übergeht. 0 = Kein Übergang zur weissen LED."
         },
         "attr": {
           "min": 0,
@@ -238,7 +267,8 @@
     "type": "group",
     "label": {
       "en": "Colour",
-      "nl": "Kleur"
+      "nl": "Kleur",
+	  "de": "Farbe"
     },
     "collapsed": true,
     "children": [
@@ -247,11 +277,13 @@
         "type": "dropdown",
         "label": {
           "en": "Used color pallet",
-          "nl": "Gebruikte kleurenpallet"
+          "nl": "Gebruikte kleurenpallet",
+		  "de": "Benutze Farbpalette"
         },
         "hint": {
           "en": "Determine what color pallet is being used.",
-          "nl": "Bepaal welk kleurenpallet wordt gebruikt."
+          "nl": "Bepaal welk kleurenpallet wordt gebruikt.",
+		  "de": "Bestimmte, welche Farbpalette benutzt wird."
         },
         "value": "accurate",
         "values": [
@@ -259,28 +291,32 @@
             "id": "none",
             "label": {
               "en": "None",
-              "nl": "Geen"
+              "nl": "Geen",
+			  "de": "Keine"
             }
           },
           {
             "id": "accurate",
             "label": {
               "en": "Accurate colors",
-              "nl": "Nauwkeurige kleuren"
+              "nl": "Nauwkeurige kleuren",
+			  "de": "Akkurate Farben"
             }
           },
           {
             "id": "huestrip",
             "label": {
               "en": "Philips Hue strip (plus)",
-              "nl": "Philips Hue strip (plus)"
+              "nl": "Philips Hue strip (plus)",
+			  "de": "Philips-Hue-Streifen (plus)"
             }
           },
           {
             "id": "huee27v3",
             "label": {
               "en": "Philips Hue bulb (v3, enhanced color)",
-              "nl": "Philips Hue lamp (v3, verbeterde kleur)"
+              "nl": "Philips Hue lamp (v3, verbeterde kleur)",
+			  "de": "Philips-Hue-Birne (v3, verbesserte Farben)"
             }
           }
         ]
@@ -291,7 +327,8 @@
     "type": "group",
     "label": {
       "en": "Transitions",
-      "nl": "Transities"
+      "nl": "Transities",
+	  "de": "Übergänge"
     },
     "collapsed": true,
     "children": [
@@ -300,11 +337,13 @@
         "type": "radio",
         "label": {
           "en": "Transition mode",
-          "nl": "Transitie modus"
+          "nl": "Transitie modus",
+		  "de": "Übergangsmodus"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines what transition mode is used.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welke transitie modus er wordt gebruikt."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt welke transitie modus er wordt gebruikt.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, welcher Übergangsmodus verwendet wird."
         },
         "zwave": {
           "index": 8,
@@ -316,14 +355,16 @@
             "id": "0",
             "label": {
               "en": "Time based steps (mode 1)",
-              "nl": "Tijd gebaseerde stappen (mode 1)"
+              "nl": "Tijd gebaseerde stappen (mode 1)",
+			  "de": "Zeitbasierte Schritte (Modus 1)"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Fixed time (mode 2)",
-              "nl": "Vaste tijd (mode 2)"
+              "nl": "Vaste tijd (mode 2)",
+			  "de": "Feste Zeit (Modus 2)"
             }
           }
         ]
@@ -333,11 +374,13 @@
         "type": "number",
         "label": {
           "en": "Transistion step size (mode 1)",
-          "nl": "Transitie stap grote (mode 1)"
+          "nl": "Transitie stap grote (mode 1)",
+		  "de": "Übergangsschritt-Größe (Modus 1)"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) sets the size of the steps taken when making a transition.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de grote van de stappen bij het maken van de transitie."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de grote van de stappen bij het maken van de transitie.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) setzt die Größe der unternommenen Schritte bei einem Übergang."
         },
         "zwave": {
           "index": 9,
@@ -355,11 +398,13 @@
         "type": "number",
         "label": {
           "en": "Transition step time (mode 1)",
-          "nl": "Transitie stap tijd (mode 1)"
+          "nl": "Transitie stap tijd (mode 1)",
+		  "de": "Übergangsschritt-Zeit (Modus 1)"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the time that each step takes when making a transition.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd voor elke stap bij het maken van een transitie."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd voor elke stap bij het maken van een transitie.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Zeit jedes Schrittes bei einem Übergang."
         },
         "zwave": {
           "index": 10,
@@ -377,11 +422,13 @@
         "type": "dropdown",
         "label": {
           "en": "Time range (mode 2)",
-          "nl": "Tijd bereik (mode 2)"
+          "nl": "Tijd bereik (mode 2)",
+		  "de": "Zeitbereich (Modus 2)"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines in which time range mode 2 should work.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt in welk tijdsbereik mode 2 werkt."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt in welk tijdsbereik mode 2 werkt.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, in welchem Zeitbereich Modus 2 funktionieren soll."
         },
         "zwave": {
           "index": 11,
@@ -394,28 +441,32 @@
             "id": "0",
             "label": {
               "en": "Milliseconds",
-              "nl": "Milliseconden"
+              "nl": "Milliseconden",
+			  "de": "Millisekunden"
             }
           },
           {
             "id": "64",
             "label": {
               "en": "Seconds",
-              "nl": "Seconden"
+              "nl": "Seconden",
+			  "de": "Sekunden"
             }
           },
           {
             "id": "128",
             "label": {
               "en": "Seconds times 10",
-              "nl": "Seconden keer 10"
+              "nl": "Seconden keer 10",
+			  "de": "Sekunden mal 10"
             }
           },
           {
             "id": "192",
             "label": {
               "en": "Minutes",
-              "nl": "Minuten"
+              "nl": "Minuten",
+			  "de": "Minuten"
             }
           }
         ]
@@ -425,11 +476,13 @@
         "type": "number",
         "label": {
           "en": "Transition time (mode 2)",
-          "nl": "Transitie tijd (mode 2)"
+          "nl": "Transitie tijd (mode 2)",
+		  "de": "Übergangszeit (Modus 2)"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the amount of time that it takes to transition from beginning to the end.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd van de transitie van het begin tot aan het eind."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de tijd van de transitie van het begin tot aan het eind.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Zeit, die ein Übergang von Anfang bis Ende benötigt."
         },
         "zwave": {
           "index": 11,
@@ -448,7 +501,8 @@
     "type": "group",
     "label": {
       "en": "Inputs",
-      "nl": "Ingangen"
+      "nl": "Ingangen",
+	  "de": "Eingänge"
     },
     "collapsed": true,
     "children": [
@@ -457,11 +511,13 @@
         "type": "number",
         "label": {
           "en": "Input threshold",
-          "nl": "Ingang drempel"
+          "nl": "Ingang drempel",
+		  "de": "Eingangsschwelle"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the amount of voltage on the input(s) that needs to change before being reported.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt hoeveel het voltage op de ingang(en) moet veranderen voor een update wordt verzonden."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt hoeveel het voltage op de ingang(en) moet veranderen voor een update wordt verzonden.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt den Spannungswert am Eingang (s), der überschritten werden muss, damit berichtet wird."
         },
         "zwave": {
           "index": 43,
@@ -479,11 +535,13 @@
         "type": "dropdown",
         "label": {
           "en": "Input 1 configuration",
-          "nl": "Ingang 1 configuratie"
+          "nl": "Ingang 1 configuratie",
+		  "de": "Eingang 1 Konfiguration"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines what is (optionally) connected to input 1 of the RGBW controller.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 1 van de RGBW controller."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 1 van de RGBW controller.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, was (optional) mit Eingang 1 des RGBW-Controllers verbunden ist."
         },
         "value": "1",
         "values": [
@@ -491,28 +549,32 @@
             "id": "8",
             "label": {
               "en": "Analog (0 - 10v)",
-              "nl": "Analoog (0 - 10v)"
+              "nl": "Analoog (0 - 10v)",
+			  "de": "Analog (0 - 10V)"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Momentary switch",
-              "nl": "Kortstondige schakelaar"
+              "nl": "Kortstondige schakelaar",
+			  "de": "Taster"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Toggle switch (toggle state)",
-              "nl": "Tuimel schakelaar (schakel status)"
+              "nl": "Tuimel schakelaar (schakel status)",
+			  "de": "Kippschalter (Status umschalten)"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Toggle switch (switch state based)",
-              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)"
+              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)",
+			  "de": "Kippschalter (Schalterstatus-basiert)"
             }
           }
         ]
@@ -522,11 +584,13 @@
         "type": "dropdown",
         "label": {
           "en": "Input 2 configuration",
-          "nl": "Ingang 2 configuratie"
+          "nl": "Ingang 2 configuratie",
+		  "de": "Eingang 2 Konfiguration"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines what is (optionally) connected to input 2 of the RGBW controller.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 2 van de RGBW controller."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 2 van de RGBW controller.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, was (optional) mit Eingang 2 des RGBW-Controllers verbunden ist."
         },
         "value": "1",
         "values": [
@@ -534,28 +598,32 @@
             "id": "8",
             "label": {
               "en": "Analog (0 - 10v)",
-              "nl": "Analoog (0 - 10v)"
+              "nl": "Analoog (0 - 10v)",
+			  "de": "Analog (0 - 10V)"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Momentary switch",
-              "nl": "Kortstondige schakelaar"
+              "nl": "Kortstondige schakelaar",
+			  "de": "Taster"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Toggle switch (toggle state)",
-              "nl": "Tuimel schakelaar (schakel status)"
+              "nl": "Tuimel schakelaar (schakel status)",
+			  "de": "Kippschalter (Status umschalten)"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Toggle switch (switch state based)",
-              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)"
+              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)",
+			  "de": "Kippschalter (Schalterstatus-basiert)"
             }
           }
         ]
@@ -565,12 +633,14 @@
         "type": "dropdown",
         "label": {
           "en": "Input 3 configuration",
-          "nl": "Ingang 3 configuratie"
+          "nl": "Ingang 3 configuratie",
+		  "de": "Eingang 3 Konfiguration"
         },
 
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines what is (optionally) connected to input 3 of the RGBW controller.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 3 van de RGBW controller."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 3 van de RGBW controller.",
+		  "de": "Dieser parameter ({{zwaveParameterIndex}} bestimmt, was (optional) mit Eingang 3 des RGBW-Controllers verbunden ist."
         },
         "value": "1",
         "values": [
@@ -578,28 +648,32 @@
             "id": "8",
             "label": {
               "en": "Analog (0 - 10v)",
-              "nl": "Analoog (0 - 10v)"
+              "nl": "Analoog (0 - 10v)",
+			  "de": "Analog (0 - 10V)"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Momentary switch",
-              "nl": "Kortstondige schakelaar"
+              "nl": "Kortstondige schakelaar",
+			  "de": "Taster"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Toggle switch (toggle state)",
-              "nl": "Tuimel schakelaar (schakel status)"
+              "nl": "Tuimel schakelaar (schakel status)",
+			  "de": "Kippschalter (Status umschalten)"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Toggle switch (switch state based)",
-              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)"
+              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)",
+			  "de": "Kippschalter (Schalterstatus-basiert)" 
             }
           }
         ]
@@ -609,11 +683,13 @@
         "type": "dropdown",
         "label": {
           "en": "Input 4 configuration",
-          "nl": "Ingang 4 configuratie"
+          "nl": "Ingang 4 configuratie",
+		  "de": "Eingang 4 Konfiguration"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines what is (optionally) connected to input 4 of the RGBW controller.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 4 van de RGBW controller."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat er (optioneel) aangesloten is op ingang 4 van de RGBW controller.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, was (optional) mit Eingang 4 des RGBW-Controllers verbunden ist."
         },
         "value": "1",
         "values": [
@@ -621,28 +697,32 @@
             "id": "8",
             "label": {
               "en": "Analog (0 - 10v)",
-              "nl": "Analoog (0 - 10v)"
+              "nl": "Analoog (0 - 10v)",
+			  "de": "Analog (0 - 10V)"
             }
           },
           {
             "id": "1",
             "label": {
               "en": "Momentary switch",
-              "nl": "Kortstondige schakelaar"
+              "nl": "Kortstondige schakelaar",
+			  "de": "Taster"
             }
           },
           {
             "id": "4",
             "label": {
               "en": "Toggle switch (toggle state)",
-              "nl": "Tuimel schakelaar (schakel status)"
+              "nl": "Tuimel schakelaar (schakel status)",
+			  "de": "Kippschalter (Status umschalten)"
             }
           },
           {
             "id": "6",
             "label": {
               "en": "Toggle switch (switch state based)",
-              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)"
+              "nl": "Tuimel schakelaar (schakelaar status gebaseerd)",
+			  "de": "Kippschalter (Schalterstatus-basiert)"
             }
           }
         ]
@@ -653,7 +733,8 @@
     "type": "group",
     "label": {
       "en": "Power",
-      "nl": "Stroom"
+      "nl": "Stroom",
+	  "de": "Energie" 
     },
     "collapsed": true,
     "children": [
@@ -662,11 +743,13 @@
         "type": "number",
         "label": {
           "en": "Watt report interval",
-          "nl": "Watt update interval"
+          "nl": "Watt update interval",
+		  "de": "Stromverbrauchsbericht-Intervall"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines on what interval the Wattage update needs to be send if the value has changed.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt op welk interval een Wattage update verzonden wordt als de waarde is veranderd."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt op welk interval een Wattage update verzonden wordt als de waarde is veranderd.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, in welchem Intervall der Stromverbrauchsbericht gesendet werden soll, wenn sich der Wert geändert hat."
         },
         "zwave": {
           "index": 44,
@@ -684,11 +767,13 @@
         "type": "number",
         "label": {
           "en": "kWh threshold",
-          "nl": "kWh drempel"
+          "nl": "kWh drempel",
+		  "de": "kWh-Schwelle"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines the minimal kWh value change before an update is send.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimale kWh waarde verandering voor het word verzonden."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de minimale kWh waarde verandering voor het word verzonden.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die minimale kWh-Wertänderung, bevor ein Update gesendet wird."
         },
         "zwave": {
           "index": 45,
@@ -707,11 +792,13 @@
         "type": "checkbox",
         "label": {
           "en": "Save power-off state",
-          "nl": "Onthoud status na stroomonderbreking"
+          "nl": "Onthoud status na stroomonderbreking",
+		  "de": "Zustand beim Ausschalten speichern"
         },
         "hint": {
           "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the device restores its last known state after power disruption.",
-          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat de laatst bekende status herstelt na stroomonderbreking."
+          "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of het apparaat de laatst bekende status herstelt na stroomonderbreking.",
+		  "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob das Geräte den letzten bekannten Zustand vor Stromunterbrechung wiederherstellt."
         },
         "zwave": {
           "index": 16,

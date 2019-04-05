@@ -2,7 +2,8 @@
   "id": "FGRM-222",
   "name": {
     "en": "Roller Shutter 2 (<2.4)",
-    "nl": "Rolluikschakelaar 2 (<2.4)"
+    "nl": "Rolluikschakelaar 2 (<2.4)",
+	"de": "Rolladen 2 (<2.4)"
   },
   "class": "windowcoverings",
   "capabilities": [
@@ -29,7 +30,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the B-button on your {{driverNameEn}} three times.",
-        "nl": "Druk driemaal op de B-knop op uw {{driverNameNl}}."
+        "nl": "Druk driemaal op de B-knop op uw {{driverNameNl}}.",
+		"de": "Drücke die B-Taste auf {{driverNameDe}} drei Mal."
       }
     },
     "associationGroups": [
