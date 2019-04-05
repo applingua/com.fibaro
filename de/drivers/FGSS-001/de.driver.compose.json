@@ -2,7 +2,8 @@
   "id": "FGSS-001",
   "name": {
     "en": "Smoke Sensor",
-    "nl": "Rookmelder"
+    "nl": "Rookmelder",
+    "de": "Rauchmelder"
   },
   "class": "sensor",
   "capabilities": [
@@ -30,7 +31,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on the {{driverNameEn}} three times",
-        "nl": "Druk driemaal op de knop op de {{driverNameNl}}"
+        "nl": "Druk driemaal op de knop op de {{driverNameNl}}",
+        "de": "Drücke die Taste auf {{driverNameDe}} drei Mal"
       }
     },
     "zwaveAllianceProductId": 1049
