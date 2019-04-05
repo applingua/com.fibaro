@@ -2,7 +2,8 @@
   "id": "FGBS-001",
   "name": {
     "en": "Universal Binary Sensor",
-    "nl": "Universal Binary Sensor"
+    "nl": "Universal Binary Sensor",
+    "de": "Universeller binärer Sensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -17,37 +18,43 @@
     "alarm_generic.contact1": {
       "title": {
         "en": "Input 1",
-        "nl": "Ingang 1"
+        "nl": "Ingang 1",
+        "de": "Eingang 1"
       }
     },
     "alarm_generic.contact2": {
       "title": {
         "en": "Input 2",
-        "nl": "Ingang 2"
+        "nl": "Ingang 2",
+        "de": "Eingang 2"
       }
     },
     "measure_temperature.sensor1": {
       "title": {
         "en": "Temperature Sensor 1",
-        "nl": "Temperatuur Sensor 1"
+        "nl": "Temperatuur Sensor 1",
+        "de": "Temperatursensor 1"
       }
     },
     "measure_temperature.sensor2": {
       "title": {
         "en": "Temperature Sensor 2",
-        "nl": "Temperatuur Sensor 2"
+        "nl": "Temperatuur Sensor 2",
+        "de": "Temperatursensor 2"
       }
     },
     "measure_temperature.sensor3": {
       "title": {
         "en": "Temperature Sensor 3",
-        "nl": "Temperatuur Sensor 3"
+        "nl": "Temperatuur Sensor 3",
+        "de": "Temperatursensor 3"
       }
     },
     "measure_temperature.sensor4": {
       "title": {
         "en": "Temperature Sensor 4",
-        "nl": "Temperatuur Sensor 4"
+        "nl": "Temperatuur Sensor 4",
+        "de": "Temperatursensor 4"
       }
     }
   },
@@ -83,11 +90,13 @@
             "label": {
               "true": {
                 "en": "Open",
-                "nl": "Open"
+                "nl": "Open",
+                "de": "Offen"
               },
               "false": {
                 "en": "Closed",
-                "nl": "Gesloten"
+                "nl": "Gesloten",
+                "de": "Geschlossen"
               }
             }
           },
@@ -96,11 +105,13 @@
             "label": {
               "true": {
                 "en": "Open",
-                "nl": "Open"
+                "nl": "Open",
+                "de": "Offen"
               },
               "false": {
                 "en": "Closed",
-                "nl": "Gesloten"
+                "nl": "Gesloten",
+                "de": "Geschlossen"
               }
             }
           }
@@ -121,7 +132,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on your {{driverNameEn}} three times.",
-        "nl": "Druk driemaal op de knop van uw {{driverNameNl}}."
+        "nl": "Druk driemaal op de knop van uw {{driverNameNl}}.",
+        "de": "Drücke die Taste auf {{driverNameDe}} drei Mal."
       }
     },
     "associationGroups": [
