@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "Wall Plug",
-        "nl": "Tussenstekker"
+        "nl": "Tussenstekker",
+        "de": "Wandstecker"
     },
     "zwave": {
         "manufacturerId": 271,
@@ -15,7 +16,8 @@
             "image": "{{driverAssetsPath}}/learnmode.svg",
             "instruction": {
                 "en": "Insert the {{driverNameEn}} in a socket or press the button on your {{driverNameEn}} three times",
-                "nl": "Stop de {{driverNameNl}} in het stopcontact of druk driemaal op de knop op de {{driverNameNl}}"
+                "nl": "Stop de {{driverNameNl}} in het stopcontact of druk driemaal op de knop op de {{driverNameNl}}",
+                "de": "Stecke {{driverNameDe}} in eine Steckdose oder drücke die Taste auf {{driverNameDe}} drei Mal"
             }
         },
         "associationGroups": [
