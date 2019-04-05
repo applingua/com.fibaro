@@ -2,7 +2,8 @@
   "id": "FGFS-101",
   "name": {
     "en": "Flood sensor",
-    "nl": "Overstromingssensor"
+    "nl": "Overstromingssensor",
+    "de": "Flutsensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -30,7 +31,8 @@
       "image": "{{driverAssetsPath}}/assets/learnmode.svg",
       "instruction": {
         "en": "Press the button on your Fibaro flood sensor three times.",
-        "nl": "Druk driemaal op de knop op de Fibaro overstromingssensor."
+        "nl": "Druk driemaal op de knop op de Fibaro overstromingssensor.",
+        "de": "Drücke die Taste auf deinem Fibaro-Flutsensor drei Mal."
       }
     },
     "associationGroups": [
