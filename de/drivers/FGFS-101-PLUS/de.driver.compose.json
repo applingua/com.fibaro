@@ -2,7 +2,8 @@
   "id": "FGFS-101-PLUS",
   "name": {
     "en": "Flood sensor (Z-Wave Plus) {{driverId}}",
-    "nl": "Overstromingssensor (Z-Wave Plus) {{driverId}}"
+    "nl": "Overstromingssensor (Z-Wave Plus) {{driverId}}",
+    "de": "Flutsensor (Z-Wave Plus) {{driverId}}"
   },
   "class": "sensor",
   "capabilities": [
@@ -32,7 +33,8 @@
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Press the button on your Fibaro flood sensor three times.",
-        "nl": "Druk driemaal op de knop op de Fibaro overstromingssensor."
+        "nl": "Druk driemaal op de knop op de Fibaro overstromingssensor.",
+        "de": "Drücke die Taste auf deinem Fibaro-Flutsensor drei Mal."
       }
     },
     "associationGroups": [
@@ -42,7 +44,8 @@
       "1": {
         "hint": {
           "en": "Reports the device status and allows for assigning single device only (Homey by default).",
-          "nl": "Rapporteert de status van het apparaat, er mag maar 1 apparaat in deze groep zitten (standaard is dit Homey)."
+          "nl": "Rapporteert de status van het apparaat, er mag maar 1 apparaat in deze groep zitten (standaard is dit Homey).",
+          "de": "Berichtet den Gerätestatus und erlaubt das Zuweisen einzelner Geräte (Standardmäßig Homey)."
         }
       }
     }
