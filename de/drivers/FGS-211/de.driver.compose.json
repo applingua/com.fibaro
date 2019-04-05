@@ -1,8 +1,9 @@
 {
-  "id": "FGS-211",
+  "id": "FGS-212",
   "name": {
-    "en": "Relay Switch",
-    "nl": "Relais Schakelaar"
+    "en": "Relay Switch 2",
+    "nl": "Relais Schakelaar 2",
+    "de": "Relaisschalter 2"
   },
   "class": "socket",
   "capabilities": [
@@ -15,44 +16,39 @@
   "zwave": {
     "manufacturerId": 271,
     "productTypeId": [
-      1024
+      1026
     ],
     "productId": [
-      258,
-      260,
-      261,
-      262,
-      263,
-      264,
-      265,
-      4106,
-      8202,
-      12298
+      4098,
+      8194,
+      12290
     ],
     "learnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Press the button on the {{driverNameEn}} three times",
-        "nl": "Druk driemaal op de knop op de {{driverNameNl}}"
-      }
-    },
-    "associationGroups": [
-      3
-    ],
-    "multiChannelNodes": {
-      "2": {
-        "class": "socket",
-        "capabilities": [
-          "onoff"
-        ],
-        "icon": "{{driverAssetsPath}}/icon-2.svg",
-        "name": {
-          "en": "Input 2 (S2)",
-          "nl": "Ingang 2 (S2)"
-        },
-        "settings": [
+        "en": "Press the button on your {{driverNameEn}} three times",
+        "nl": "Druk driemaal op de knop op de {{driverNameNl}}",
+        "de": "Drücke die Taste auf {{driverNameDe}} drei Mal"
+      },
+      "associationGroups": [
+        3
+      ],
+      "multiChannelNodes": {
+        "2": {
+          "class": "socket",
+          "capabilities": [
+            "onoff"
+          ],
+          "icon": "{{driverAssetsPath}}/icon-2.svg",
+          "name": {
+            "en": "Relay 2 (S2)",
+            "nl": "Relais 2 (S2)",
+            "de": "Relais 2 (S2)"
+          },
+          "settings": [
 
-        ]
+          ]
+        }
       }
     }
   }
