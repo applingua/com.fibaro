@@ -3,7 +3,8 @@
         "type": "group",
         "label": {
             "en": "Smoke sensor",
-            "nl": "Rookmelder"
+            "nl": "Rookmelder",
+            "de": "Rauchmelder"
         },
         "collapsed": false,
         "children": [
@@ -36,7 +37,8 @@
         "type": "group",
         "label": {
             "en": "Temperature sensor",
-            "nl": "Temperatuursensor"
+            "nl": "Temperatuursensor",
+            "de": "Temperatursensor"
         },
         "collapsed": true,
         "children": [
@@ -93,7 +95,8 @@
         "type": "group",
         "label": {
             "en": "Tamper alarm",
-            "nl": "Sabotage alarm"
+            "nl": "Sabotage alarm",
+            "de": "Sabotage-Alarm"
         },
         "collapsed": true,
         "children": [
@@ -102,12 +105,14 @@
                 "type": "dropdown",
                 "label": {
                     "en": "Tamper alarm",
-                    "nl": "Sabotage alarm"
+                    "nl": "Sabotage alarm",
+                    "de": "Sabotage-Alarm"
                 },
                 "value": "1",
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines the behaviour of the tamper alarm.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van het sabotage alarm."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van het sabotage alarm.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt das Verhalten des Sabotage-Alarms."
                 },
                 "zwave": {
                     "index": 89,
@@ -118,21 +123,24 @@
                         "id": "0",
                         "label": {
                             "en": "Inactive",
-                            "nl": "Uitgeschakeld"
+                            "nl": "Uitgeschakeld",
+                            "de": "Inaktiv"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "Active, with cancellation",
-                            "nl": "Ingeschakeld, met annulering"
+                            "nl": "Ingeschakeld, met annulering",
+                            "de": "Aktiv mit Abbruch"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "Active, without cancellation",
-                            "nl": "Ingeschakeld, zonder annulering"
+                            "nl": "Ingeschakeld, zonder annulering",
+                            "de": "Aktiv ohne Abbruch"
                         }
                     }
                 ]
@@ -143,7 +151,8 @@
         "type": "group",
         "label": {
             "en": "LED and acoustic notifications",
-            "nl": "LED en akoestische notificaties"
+            "nl": "LED en akoestische notificaties",
+            "de": "LED und akustische Benachrichtigung"
         },
         "collapsed": true,
         "children": [
@@ -152,12 +161,14 @@
                 "type": "dropdown",
                 "label": {
                     "en": "LED indicator and acoustic alarm",
-                    "nl": "LED indicatie en akoestisch alarm"
+                    "nl": "LED indicatie en akoestisch alarm",
+                    "de": "LED-Indikator und akustischer Alarm"
                 },
                 "value": "3",
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines the behaviour of the visual and acoustic alarm when the alarm is triggerd.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van de visuele en akoestische melding bij het af gaan van het alarm."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van de visuele en akoestische melding bij het af gaan van het alarm.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt das Verhalten des visuellen und akustischen Alarms, wenn er ausgelöst wird."
                 },
                 "zwave": {
                     "index": 2,
@@ -168,28 +179,32 @@
                         "id": "0",
                         "label": {
                             "en": "Acoustic and visual alarms inactive",
-                            "nl": "Akoestisch en visueel alarm uitgeschakeld"
+                            "nl": "Akoestisch en visueel alarm uitgeschakeld",
+                            "de": "Akustischer und visueller Alarm inaktiv"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "Only visual alarm active",
-                            "nl": "Alleen visueel alarm ingeschakeld"
+                            "nl": "Alleen visueel alarm ingeschakeld",
+                            "de": "Nur visueller Alarm aktiv"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "Only acoustic alarm active",
-                            "nl": "Alleen akoestisch alarm ingeschakeld"
+                            "nl": "Alleen akoestisch alarm ingeschakeld",
+                            "de": "Nur akustischer Alarm aktiv"
                         }
                     },
                     {
                         "id": "3",
                         "label": {
                             "en": "Acoustic and visual alarms active",
-                            "nl": "Akoestisch en visueel alarm ingeschakeld"
+                            "nl": "Akoestisch en visueel alarm ingeschakeld",
+                            "de": "Akustischer und visueller Alarm aktiv"
                         }
                     }
                 ]
