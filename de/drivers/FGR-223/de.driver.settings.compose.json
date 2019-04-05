@@ -4,11 +4,13 @@
         "type": "checkbox",
         "label": {
             "en": "Start calibration",
-            "nl": "Start kalibratie"
+            "nl": "Start kalibratie",
+            "de": "Kalibrierung starten"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) starts the calibration procedure on save.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) start de kalibratieprocedure na het opslaan."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) start de kalibratieprocedure na het opslaan.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) startet die Kalibrierungsprozedur beim Speichern."
         },
         "zwave": {
             "index": 150,
@@ -21,11 +23,13 @@
         "type": "checkbox",
         "label": {
             "en": "Invert input",
-            "nl": "Keer de ingangen om"
+            "nl": "Keer de ingangen om",
+            "de": "Eingang umkehren"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) inverts the input direction.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) keert de ingangsdirectie om."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) keert de ingangsdirectie om.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) kehrt die Eingangsrichtung um."
         },
         "zwave": {
             "index": 24,
@@ -38,11 +42,13 @@
         "type": "checkbox",
         "label": {
             "en": "Invert output",
-            "nl": "Keer de uitgangen om"
+            "nl": "Keer de uitgangen om",
+            "de": "Ausgang umkehren"
         },
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) inverts the output direction.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) keert de uitgangsdirectie om."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) keert de uitgangsdirectie om.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) kehrt die Ausgangsrichtung um."
         },
         "zwave": {
             "index": 25,
@@ -55,7 +61,8 @@
         "$id": "switch_type",
         "hint": {
             "en": "This parameter ({{zwaveParameterIndex}}) determines what switch is connected to this device.",
-            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor een schakelaar het apparaat activeert."
+            "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wat voor een schakelaar het apparaat activeert.",
+            "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, welcher Schalter mit diesem Gerät verbunden ist."
         },
         "zwave": {
             "index": 20,
@@ -67,21 +74,24 @@
                 "id": "0",
                 "label": {
                     "en": "Double, Momentary switch",
-                    "nl": "Dubbele pulsdrukschakelaar "
+                    "nl": "Dubbele pulsdrukschakelaar ",
+                    "de": "Doppelter Taster"
                 }
             },
             {
                 "id": "1",
                 "label": {
                     "en": "Toggle switches",
-                    "nl": "Tuimelschakelaars"
+                    "nl": "Tuimelschakelaars",
+                    "de": "Kippschalter"
                 }
             },
             {
                 "id": "2",
                 "label": {
                     "en": "Single, momentary switch",
-                    "nl": "Enkele pulsdrukschakelaar"
+                    "nl": "Enkele pulsdrukschakelaar",
+                    "de": "Einzelner Taster"
                 }
             }
         ]
