@@ -3,7 +3,8 @@
         "type": "group",
         "label": {
             "en": "Motion sensor",
-            "nl": "Bewegingssensor"
+            "nl": "Bewegingssensor",
+            "de": "Bewegungssensor"
         },
         "collapsed": false,
         "children": [
@@ -26,7 +27,8 @@
                 "type": "number",
                 "label": {
                     "en": "Motion sensor blindtime",
-                    "nl": "Bewegingssensor blindtime"
+                    "nl": "Bewegingssensor blindtime",
+                    "de": "Bewegungssensor Blindzeit"
                 },
                 "zwave": {
                     "index": 2,
@@ -39,7 +41,8 @@
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines the period of time through which the PIR sensor is “blind” (insensitive) to motion.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de periode na detecteren van beweging gedurende de sensor ongevoelig is voor nieuwe bewegingsdetectie."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt de periode na detecteren van beweging gedurende de sensor ongevoelig is voor nieuwe bewegingsdetectie.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt die Dauer, während der der PIR-Sensor “blind” (deaktiviert) gegenüber Bewegung ist."
                 }
             },
             {
@@ -61,7 +64,8 @@
                 "type": "dropdown",
                 "label": {
                     "en": "Motion operating mode",
-                    "nl": "Bewegingsalarm functie"
+                    "nl": "Bewegingsalarm functie",
+                    "de": "Bewegungserkennungsmodus"
                 },
                 "zwave": {
                     "index": 8,
@@ -70,28 +74,32 @@
                 "value": "0",
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines when the motion should be active.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wanneer het bewegingsalarm actief moet zijn."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt wanneer het bewegingsalarm actief moet zijn.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, wann die Bewegungserkennung aktiv sein soll."
                 },
                 "values": [
                     {
                         "id": "0",
                         "label": {
                             "en": "Always active",
-                            "nl": "Altijd actief"
+                            "nl": "Altijd actief",
+                            "de": "Immer aktiv"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "Only during day",
-                            "nl": "Alleen overdag"
+                            "nl": "Alleen overdag",
+                            "de": "Nur tagsüber"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "Only during night",
-                            "nl": "Alleen 's nachts"
+                            "nl": "Alleen 's nachts",
+                            "de": "Nur nachts"
                         }
                     }
                 ]
@@ -102,7 +110,8 @@
         "type": "group",
         "label": {
             "en": "Temperature sensor",
-            "nl": "Temperatuurssensor"
+            "nl": "Temperatuurssensor",
+            "de": "Temperatursensor"
         },
         "collapsed": true,
         "children": [
@@ -165,7 +174,8 @@
                 "type": "number",
                 "label": {
                     "en": "Minimum temperature for blue LED (°C)",
-                    "nl": "Minimale temperatuur voor blauwe LED (°C)"
+                    "nl": "Minimale temperatuur voor blauwe LED (°C)",
+                    "de": "Minimale Temperatur für blaue LED (°C)"
                 },
                 "zwave": {
                     "index": 86,
@@ -179,7 +189,8 @@
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) is only relevant when LED signaling mode is set to \"depends on temperature\", and must be below red LED.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) is alleen relevant wanneer LED kleur staat ingesteld op \"op basis van temperatuur\", en moet onder rode LED zijn."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) is alleen relevant wanneer LED kleur staat ingesteld op \"op basis van temperatuur\", en moet onder rode LED zijn.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) ist nur relevant, wenn der LED-Signalmodus auf \"abhängig von der Temperatur\" gesetzt und unter der roten LED ist."
                 }
             },
             {
@@ -187,7 +198,8 @@
                 "type": "number",
                 "label": {
                     "en": "Temperature for red LED (°C)",
-                    "nl": "Temperatuur voor rode LED (°C)"
+                    "nl": "Temperatuur voor rode LED (°C)",
+                    "de": "Temperatur für rote LED (°C)"
                 },
                 "zwave": {
                     "index": 87,
@@ -201,7 +213,8 @@
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) is only relevant when LED signaling mode is set to \"depends on temperature\", and must be above blue LED.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) is alleen relevant wanneer LED kleur staat ingesteld op \"op basis van temperatuur\", en moet boven blauwe LED zijn."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) is alleen relevant wanneer LED kleur staat ingesteld op \"op basis van temperatuur\", en moet boven blauwe LED zijn.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) ist nur relevant, wenn der LED-Signalmodus auf \"abhängig von der Temperatur\" gesetzt und unter der blauen LED ist."
                 }
             }
         ]
@@ -210,7 +223,8 @@
         "type": "group",
         "label": {
             "en": "Light sensor",
-            "nl": "Lichtsensor"
+            "nl": "Lichtsensor",
+            "de": "Lichtsensor"
         },
         "collapsed": true,
         "children": [
@@ -247,7 +261,8 @@
                 "type": "number",
                 "label": {
                     "en": "Motion operating mode threshold",
-                    "nl": "Bewegingsalarm functie drempel"
+                    "nl": "Bewegingsalarm functie drempel",
+                    "de": "Bewegungserkennungsmodus-Schwelle"
                 },
                 "zwave": {
                     "index": 9,
@@ -261,7 +276,8 @@
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines on which lux level it is either day or night.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt bij hoeveel lux het schakelt tussen dag of nacht."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt bij hoeveel lux het schakelt tussen dag of nacht.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, bei welchem Lux-Wert es entweder Tag oder Nacht ist."
                 }
             }
         ]
@@ -270,7 +286,8 @@
         "type": "group",
         "label": {
             "en": "Tamper alarm",
-            "nl": "Sabotage alarm"
+            "nl": "Sabotage alarm",
+            "de": "Sabotagealarm"
         },
         "collapsed": true,
         "children": [
@@ -305,11 +322,13 @@
                 "value": "0",
                 "label": {
                     "en": "Tamper operation mode",
-                    "nl": "Trilling operatie modus"
+                    "nl": "Trilling operatie modus",
+                    "de": "Sabotageerkennungsmodus"
                 },
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines the behaviour of the tamper alarm and how it reports.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van het sabotage alarm en hoe het rapporteert."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt het gedrag van het sabotage alarm en hoe het rapporteert.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt das Verhalten des Sabotagealarms und wie er berichtet."
                 },
                 "zwave": {
                     "index": 24,
@@ -320,21 +339,24 @@
                         "id": "0",
                         "label": {
                             "en": "Tamper only",
-                            "nl": "Alleen sabotage alarm"
+                            "nl": "Alleen sabotage alarm",
+                            "de": "Nur Sabotage"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "Tamper and earthquake detector",
-                            "nl": "Sabotage en aardbeving detectie"
+                            "nl": "Sabotage en aardbeving detectie",
+                            "de": "Sabotage- und Erdbebenerkennung"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "Tamper and orientation in space",
-                            "nl": "Sabotage en orientatie raportage"
+                            "nl": "Sabotage en orientatie raportage",
+                            "de": "Sabotage und Orientierung im Raum"
                         }
                     }
                 ],
@@ -346,7 +368,8 @@
         "type": "group",
         "label": {
             "en": "LED notifications",
-            "nl": "LED notificaties"
+            "nl": "LED notificaties",
+            "de": "LED-Benachrichtigungen"
         },
         "collapsed": true,
         "children": [
@@ -371,7 +394,8 @@
                 "type": "checkbox",
                 "label": {
                     "en": "LED indicating tamper alarm",
-                    "nl": "LED geeft trillingsalarm aan"
+                    "nl": "LED geeft trillingsalarm aan",
+                    "de": "LED zeigt Sabotagealarm"
                 },
                 "zwave": {
                     "index": 89,
@@ -380,7 +404,8 @@
                 "value": true,
                 "hint": {
                     "en": "This parameter ({{zwaveParameterIndex}}) determines whether or not the LED alarm (police car resemblance) is active or not.",
-                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of de LED actief is bij het sabotage alarm."
+                    "nl": "Deze parameter ({{zwaveParameterIndex}}) bepaalt of de LED actief is bij het sabotage alarm.",
+                    "de": "Dieser Parameter ({{zwaveParameterIndex}}) bestimmt, ob der LED-Alarm (Polzeiauto-Ähnlichkeit) aktiv ist."
                 }
             }
         ]
@@ -389,7 +414,8 @@
         "type": "group",
         "label": {
             "en": "Commands",
-            "nl": "Commando's"
+            "nl": "Commando's",
+            "de": "Befehle"
         },
         "collapsed": true,
         "children": [
@@ -405,21 +431,24 @@
                         "id": "0",
                         "label": {
                             "en": "on and off",
-                            "nl": "aan en uit"
+                            "nl": "aan en uit",
+                            "de": "an und aus"
                         }
                     },
                     {
                         "id": "1",
                         "label": {
                             "en": "only on",
-                            "nl": "alleen aan"
+                            "nl": "alleen aan",
+                            "de": "nur an"
                         }
                     },
                     {
                         "id": "2",
                         "label": {
                             "en": "only off",
-                            "nl": "alleen uit"
+                            "nl": "alleen uit",
+                            "de": "nur aus"
                         }
                     }
                 ]
